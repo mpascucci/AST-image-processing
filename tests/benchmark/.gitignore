@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+.vscode
+pickled_preprocs/
+gitignore*
+last_benchmark.jpg

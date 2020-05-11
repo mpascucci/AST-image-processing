@@ -1,0 +1,82 @@
+# File listing golden/expected results for improc.
+# For use by benchmark.py.
+
+# CAUTION! The below inputs are created self-referentially by running
+# improc and adding random errors. 
+# TODO(ellensebastian): Replace with real, validated data.
+
+# File format:
+# filename.jpg // A file present in the improc/tests/images directory
+#  - { label: $ATB_NAME1, diameter: $EXPECTED_DIAMETER1 }
+#  - { label: $ATB_NAME2, diameter: $EXPECTED_DIAMETER2 }
+#  - { label: $ATB_NAME1, diameter: $EXPECTED_DIAMETER3 }
+# antibiotic names may be repeated within a single file; This means that
+# multiple antibiotic disks with that name are present.
+
+IMG_20180107_184023.jpg:
+  - { label:  FEC40 , diameter:  39.4  } 
+  - { label:  WRONG_ATB , diameter:  25.1  } 
+  - { label:  CFM5 , diameter:  36.2  } 
+  - { label:  CAZ10 , diameter:  28.0  } 
+  - { label:  FEP30 , diameter:  35.5  } 
+  - { label:  IPM10 , diameter:  41.0  } 
+  - { label:  TIM85 , diameter:  27.8  } 
+  - { label:  ETP10 , diameter:  35.4  } 
+  - { label:  CTX5 , diameter:  30.6  } 
+  - { label:  TPZ36 , diameter:  24.5  } 
+  - { label:  CFR30 , diameter:  19.4  } 
+  - { label:  AX20 , diameter:  6.1  } 
+  - { label:  PRL30 , diameter:  19.9  } 
+  - { label:  TIC75 , diameter:  9.8  } 
+IMG_20180107_184052.jpg:
+  - { label:  NOR10 , diameter:  39.2  } 
+  - { label:  CIP5 , diameter:  40.6  } 
+  - { label:  NA30 , diameter:  21.8  } 
+  - { label:  WRONG_ATB , diameter:  39.5  } 
+  - { label:  FF200 , diameter:  32.8  } 
+  - { label:  CT50 , diameter:  19.2  } 
+  - { label:  SXT25 , diameter:  26.3  } 
+  - { label:  F100 , diameter:  18.4  } 
+  - { label:  TGC15 , diameter:  21.6  } 
+  - { label:  MEC10 , diameter:  30.4  } 
+  - { label:  TEM30 , diameter:  24.0  } 
+  - { label:  MEM10 , diameter:  34.8  } 
+  - { label:  WRONG_ATB , diameter:  25.2  } 
+  - { label:  CN10 , diameter:  24.1  } 
+  - { label:  AK30 , diameter:  24.2  } 
+  - { label:  TOB10 , diameter:  24.5  } 
+IMG_20180107_185239__BLSE.jpg:
+  - { label:  FOX30 , diameter:  17.6  } 
+  - { label:  CAZ10 , diameter:  7.0  } 
+  - { label:  CFM5 , diameter:  6.3  } 
+  - { label:  FEC40 , diameter:  25.7  } 
+  - { label:  FEP30 , diameter:  13.0  } 
+  - { label:  TIM85 , diameter:  13.8  } 
+  - { label:  ETP10 , diameter:  29.8  } 
+  - { label:  IPM10 , diameter:  26.2  } 
+  - { label:  TIM85 , diameter:  14.7  } 
+  - { label:  CTX5 , diameter:  5.1  } 
+  - { label:  ATM30 , diameter:  11.4  } 
+  - { label:  TIM85 , diameter:  12.5  } 
+  - { label:  AX20 , diameter:  6.0  } 
+  - { label:  TIC75 , diameter:  5.1  } 
+  - { label:  PRL30 , diameter:  5.2  } 
+  - { label:  CFR30 , diameter:  5.7  } 
+IMG_20180928_203610.jpg:
+  - { label:  FEC40 , diameter:  24.6  } 
+  - { label:  CAZ10 , diameter:  5.6  } 
+  - { label:  CFM5 , diameter:  6.8  } 
+  - { label:  FOX30 , diameter:  16.9  } 
+  - { label:  IPM10 , diameter:  39.9  } 
+  - { label:  ETP10 , diameter:  27.2  } 
+  - { label:  FEP30 , diameter:  13.8  } 
+  - { label:  TIM85 , diameter:  16.1  } 
+  - { label:  AMC30 , diameter:  9.6  } 
+  - { label:  ATM30 , diameter:  14.2  } 
+  - { label:  ATM30 , diameter:  40.2  } 
+  - { label:  TPZ36 , diameter:  12.3  } 
+  - { label:  CTX5 , diameter:  5.1  } 
+  - { label:  CFR30 , diameter:  5.7  } 
+  - { label:  AX20 , diameter:  6.1  } 
+  - { label:  PRL30 , diameter:  6.3  } 
+  - { label:  TIC75 , diameter:  5.3  } 

@@ -1,0 +1,6 @@
+#ifndef TEST_CONFIG
+#define TEST_CONFIG
+
+static const char* test_img_path = @TEST_IMG_PATH@;
+
+#endif

@@ -1,0 +1,11 @@
+# Fake results file used by benchmark_unit_test.py.
+
+IMG_20180107_184023.jpg:
+  - { label:  ATB1 , diameter:  10.1  } 
+  - { label:  ATB2 , diameter:  4.5  } 
+  - { label:  ATB1, diameter:  10.1  } 
+  - { label:  ATB1, diameter:  15.0  } 
+IMG_20180107_184052.jpg:
+  - { label:  ATB1 , diameter:  1.1  } 
+  - { label:  ATB2 , diameter:  2.2  } 
+  - { label:  ATB3 , diameter:  3.3  } 

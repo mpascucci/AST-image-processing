@@ -1,0 +1,890 @@
+guiID;Numéro de demande;seq;Date de prélèvement;Germe (libellé);Entérobactéries & B-lactamines;Entérobactéries et Aminosides;Staph & B-lactamines;Entérocoques et Glycopeptides;ATB LIQUIDE;PENICILLINE G 1U;OXACILLINE 1µg;AMPICILLINE 2µg;AMOXICILLINE 20µg;AMOXICILLINE + AC.CLAVULANIQUE 20-10µg;TICARCILLINE 75µg;TICARCILLINE + AC.CLAVULANIQUE 75-10µg;PIPERACILLINE 30µg;PIPERACILLINE + TAZOBACTAM 30-6µg;CEFADROXIL 30µg;CEFOXITINE 30µg;CEFIXIME 5µg;CEFOTAXIME 5µg;CEFTAZIDIME 10µg;AZTREONAM 30µg;CEFEPIME 30µg;CEFEPIME + AC.CLAVULANIQUE 30-10µg;ERTAPENEME 10µg;IMIPENEME 10µg;MEROPENEME 10µg;MECILLINAM 10µg;TEMOCILLINE 30µg;STREPTOMYCINE 300µg;GENTAMICINE 10µg;GENTAMICINE 30µg;GENTAMICINE 500µg;TOBRAMYCINE 10µg;AMIKACINE 30µg;NETILMICINE 10µg;ACIDE NALIDIXIQUE 30µg;NORFLOXACINE 10µg;CIPROFLOXACINE 5µg;LEVOFLOXACINE 5µg;MOXIFLOXACINE 5µg;TRIMETHOPRIME + SULFAMIDES 1.25-23.75µg;ERYTHROMYCINE 15µg;CLINDAMYCINE 2µg;LINCOMYCINE 15µg;PRISTINAMYCINE 15µg;LINEZOLIDE 10µg;RIFAMPICINE 5µg;TETRACYCLINE 30µg;TIGECYCLINE 15µg;FOSFOMYCINE 200µg;NITROFURANTOINE 100µg;VANCOMYCINE 5µg;TEICOPLANINE 30µg
+2;170412039901;7363;12/04/2017;Streptococcus constellatus;;;;;;S;PASVAL;R;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;;;S;S;S;S;S;PASVAL;;;S;S
+3;170413017101;5473;13/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;R;R;S;S;;;;;S;I;S;;;R;R;;;;S;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+6;170413004801;5471;12/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;R;R;R;R;;;;;R;R;R;;;S;S;;;;R;;;S;I;;;;I;R;;PASVAL;;;;;;;;;;;;
+7;170411019101;1928;11/04/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;R;;;R;S;S;R;PASVAL;S;;;S;S
+8;170411012801;980;11/04/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;R;;S;S;;;;;S;;S;PASVAL;R;;;R;PASVAL;S;S;PASVAL;S;;;S;S
+9;170412037701;2374;12/04/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+10;170413018401;5474;13/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;R;R;R;R;;;;;S;I;S;;;R;R;;;;R;;;R;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+11;170413029701;5476;13/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;S;S;S;S;;;;;S;I;S;;;S;S;;;;S;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+14;170421030101;5383;21/04/2017;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;I;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+15;170421019501;5506;21/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;R;R;R;R;;;;;R;I;R;;;S;S;;;;R;;;R;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+16;170421008401;2412;21/04/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+17;170420040301;316;20/04/2017;Enterobacter aerogenes;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+18;170420022501;5499;20/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;R;S;S;S;;;;;S;I;S;;;R;R;;;;R;;;R;I;;;;R;R;;PASVAL;;;;;;;;;;;;
+19;170422002601;2418;21/04/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+20;170422002501;2417;21/04/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+21;170421030101;7224;21/04/2017;Streptococcus anginosus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;;;R;S;S;S;R;PASVAL;;;S;S
+22;170421030101;999;21/04/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;;;R;PASVAL;S;I;PASVAL;S;;;S;S
+23;170420033401;4268;20/04/2017;Klebsiella pneumoniae;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;R;R;;R;;;R;I;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+24;170420033401;6945;20/04/2017;Stenotrophomonas maltophilia;;;;;;;;;;;R;PASVAL;R;PASVAL;;;;;PASVAL;R;PASVAL;;;R;R;;;;I;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+25;170420033401;5502;20/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;S;S;S;S;;;;;S;I;S;;;S;S;;;;S;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+27;170420011501;2407;20/04/2017;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;S;I;S;R;I;R;S;I;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+28;170419029201;4264;19/04/2017;Klebsiella pneumoniae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+29;170419029201;2403;19/04/2017;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;S;R;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+30;170420011401;2406;19/04/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;S;R;S;R;S;S;R;I;I;I;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+31;170420011401;129;19/04/2017;Citrobacter amalonaticus;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+32;170418009401;127;18/04/2017;Citrobacter amalonaticus;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+33;170419032601;7286;19/04/2017;Streptococcus A;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;;;S;S;S;S;S;S;;;S;S
+34;170418028001;1937;18/04/2017;Enterococcus faecium;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;;;R;S;S;R;PASVAL;S;;;S;S
+36;170420023701;5500;20/04/2017;Pseudomonas aeruginosa;;;;;;;;;;;R;S;S;S;;;;;S;I;S;;;R;R;;;;R;;;R;I;;;;R;R;;PASVAL;;;;;;;;;;;;
+37;170419030701;7221;19/04/2017;Streptococcus anginosus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;;;R;S;S;S;R;PASVAL;;;S;S
+38;170420035601;4269;20/04/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+39;170620007901;2717;20/06/2017;Escherichia coli;B.L.S.E.;GT;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;I;S;S;S;S;S;S;;R;;;R;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+40;170620008101;2719;20/06/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+42;170619027901;7608;19/06/2017;Streptococcus pneumoniae;;;;;;I;R;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+52;170619031001;4414;19/06/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+53;170620039501;5679;20/06/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+54;170620039301;5392;20/06/2017;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+55;170909004601;627;08/09/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;S;S;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;S;;
+56;170908000501;5947;08/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+57;170908019501;3100;07/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+59;170906040801;4608;06/09/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;S;;;;;;;;PASVAL;S;S;;
+60;170907036701;130;06/09/2017;Citrobacter amalonaticus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+61;170908002101;4610;07/09/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;I;R;R;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;S;S;R;;
+62;170906035101;6656;06/09/2017;Pseudomonas putida;;;;;;;;;;R;S;R;S;;;;;;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;R;;;;;;;;;;;;
+63;170906037601;4097;06/09/2017;Hafnia alvei;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;I;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+64;170907036701;5111;06/09/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;S;S;R;S;R;I;R;I;I;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+65;170907037201;625;06/09/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;S;S;R;R;R;R;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+66;170907035601;3094;07/09/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;S;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;R;S;;
+67;170907036701;3095;06/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+68;170908014201;4613;08/09/2017;Klebsiella pneumoniae;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;S;;;I;S;S;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+69;170908014201;4612;08/09/2017;Klebsiella pneumoniae;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;I;S;S;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+70;170907028701;3093;07/09/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;R;R;R;I;R;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+72;170906005601;5939;05/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+73;170906014501;5940;05/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+74;170905039201;159;05/09/2017;Citrobacter freundii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+75;170906019201;4607;06/09/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+76;170905010601;4172;05/09/2017;Klebsiella oxytoca;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+79;170905033101;5937;05/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+80;170904020301;112;04/09/2017;Aeromonas caviae;;;;;;;;;R;I;R;S;S;S;R;S;S;S;S;S;S;S;R;I;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+81;170903015701;5398;03/09/2017;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+82;170904017401;3083;04/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+83;170904011501;362;04/09/2017;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;I;S;R;R;I;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;R;R;;
+84;170905022601;5936;05/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+85;170905024202;364;05/09/2017;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;I;R;R;S;S;I;S;S;S;S;S;S;S;R;;S;;;S;S;S;I;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+86;170904011501;2047;04/09/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;S;S;;;;;R;;R;PASVAL;R;R;;R;S;S;;PASVAL;S;;;S;S
+87;170904013101;2048;04/09/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;I;R;;R;S;S;;PASVAL;S;;;S;S
+88;170903014001;5929;03/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;R;R;S;;S;I;;;;;;;S;R;;;;R;R;;PASVAL;;;;;;;;;;;;
+89;170903014001;3;03/09/2017;Achromobacter xylosoxidans;;;;;;;;;;R;S;S;S;S;;;;R;R;R;R;PASVAL;;S;R;;;;;;;R;R;;;;R;R;;PASVAL;;;;;;;;;;;;
+90;170905017601;4603;04/09/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;R;S;;
+91;170903016401;5931;03/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+92;170904029001;7413;04/09/2017;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;R;;R;S;S;;S;S;;;S;S
+93;170906007201;3089;05/09/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;GT;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;R;;;R;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+94;170905009701;5935;05/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+96;170904012301;5933;04/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+97;170904028401;44;04/09/2017;Acinetobacter baumannii;;;;;;;;;;R;S;S;PASVAL;PASVAL;;;;;PASVAL;PASVAL;S;S;;S;S;;;;;;;S;S;;;;S;S;;S;;;;;;;;;;;;
+98;170905024301;7632;05/09/2017;Streptococcus pneumoniae;;;;;;S;S;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;;R;PASVAL;;;S;S
+99;170905003702;3084;04/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+100;170904012301;5932;04/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+101;170901028901;7756;01/09/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;;S;S;;;S;S
+102;170904029701;7151;04/09/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;;R;S;;;S;S
+103;170912034101;3126;12/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+104;170912033201;3125;12/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+106;170913004101;3130;12/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+107;170913003301;3129;12/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+108;170912038901;4177;12/09/2017;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+109;170911022501;3110;11/09/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;R;R;R;I;I;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+110;170905039801;5938;05/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+111;170912011302;635;12/09/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;S;S;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+112;170912035701;5077;12/09/2017;Klebsiella sp;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+113;170911001201;7464;10/09/2017;Streptococcus groupe mitis/oralis;;;;;;I;PASVAL;R;I;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;I;S;;S;S;S;S;S;PASVAL;;;S;S
+114;170906043901;7501;06/09/2017;Streptococcus infantis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;;S;PASVAL;;;S;S
+115;170911029901;5426;11/09/2017;Providencia rustigianii;CEPHALOSPORINASE;GTNt;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;I;;;R;S;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+116;170910007701;5112;10/09/2017;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+117;170830021201;3058;30/08/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+118;170909011301;631;09/09/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;S;R;;
+119;170909007401;628;09/09/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;S;R;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+121;170911004001;5270;10/09/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+122;170911004002;633;10/09/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+123;170912008901;3115;11/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+124;170912008701;4623;11/09/2017;Klebsiella pneumoniae;PHENOTYPE INCONNU;GTNt;;;;;;;R;R;R;R;R;S;S;S;S;R;R;S;S;S;S;S;S;R;S;;R;;;R;S;R;S;S;S;S;;R;;;;;;;;PASVAL;R;R;;
+125;170912008701;634;11/09/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+126;170911018802;3109;11/09/2017;Escherichia coli;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+127;170911010101;5953;10/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+128;170911003901;632;10/09/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+129;170911004001;4619;10/09/2017;Klebsiella pneumoniae;PHENOTYPE INCONNU;Inconnu;;;;;;;R;R;R;R;R;I;S;S;S;R;R;S;I;S;S;S;S;R;S;;R;;;R;I;R;S;S;S;S;;R;;;;;;;;PASVAL;R;R;;
+130;170911021801;6982;11/09/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+131;170908037901;160;08/09/2017;Citrobacter freundii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+132;170910009601;7252;10/09/2017;Streptococcus anginosus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;S;R;PASVAL;;;S;S
+133;170908026501;4615;07/09/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+134;170908017101;4614;08/09/2017;Klebsiella pneumoniae;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+135;170908007001;3096;08/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+136;170908007001;3097;08/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+137;170914029601;3138;14/09/2017;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;I;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+138;170913001701;7546;12/09/2017;Streptococcus mutans;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;R;;R;S;S;S;R;PASVAL;;;S;S
+140;170915038001;6746;15/09/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+141;170915038101;6747;15/09/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+142;170914028501;6983;14/09/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;S;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+144;170916003801;1393;15/09/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;I;;R;PASVAL;S;I;PASVAL;S;;;S;S
+145;170915022301;643;14/09/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;R;S;;
+146;170916018601;243;15/09/2017;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+147;170915024201;4632;15/09/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+148;170915029502;6743;15/09/2017;Serratia marcescens;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;I;R;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+149;170915029602;6744;15/09/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+150;170914041501;5115;14/09/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;S;R;S;S;R;I;R;R;I;S;S;S;S;S;S;R;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;PASVAL;R;R;;
+151;170919030801;6749;19/09/2017;Serratia marcescens;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;S;R;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+152;170919013001;1401;19/09/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;I;;R;PASVAL;S;I;PASVAL;S;;;S;S
+153;170919045101;1403;19/09/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;S;;R;PASVAL;S;S;PASVAL;S;;;S;S
+154;170918043201;5973;18/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+155;170919016301;3160;19/09/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;GT;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+156;170919033001;5980;19/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+157;170919032901;5979;19/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+158;170919019001;5977;19/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+159;170918036201;7156;18/09/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+161;170916007901;6683;16/09/2017;Salmonella enterica;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+163;170918023801;5427;18/09/2017;Providencia rustigianii;CEPHALOSPORINASE;GTNt;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;R;;;R;S;R;S;S;S;S;;I;;;;;;;;PASVAL;S;R;;
+167;170918034801;4178;18/09/2017;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+168;170918043201;4639;18/09/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;I;S;S;S;S;S;S;S;;R;;;R;S;R;I;I;I;S;;R;;;;;;;;PASVAL;R;S;;
+169;170917003401;5969;16/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+170;170918033601;5117;18/09/2017;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;PASVAL;R;R;;
+171;170918031801;5274;18/09/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+172;170918044301;366;18/09/2017;Enterobacter aerogenes;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+173;170916011001;7154;15/09/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+174;170916013301;1395;16/09/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;R;;S;S;;;;;S;;S;PASVAL;R;I;;R;PASVAL;S;R;PASVAL;S;;;S;S
+177;170916018901;5273;16/09/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+178;170915037201;645;15/09/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+179;170917013501;5971;17/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+180;170916018101;46;16/09/2017;Acinetobacter baumannii;;;;;;;;;;R;R;R;;R;;;;;R;;R;R;;R;R;;;;;;;R;R;;;;R;R;;R;;;;;;;;;;;;
+181;170915013701;641;15/09/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;I;S;S;I;S;S;S;R;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+182;170920013401;6986;20/09/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+183;170921030601;655;21/09/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+184;170921036001;4647;21/09/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+185;170920044401;5986;20/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+186;170919018501;6748;19/09/2017;Serratia marcescens;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;I;R;R;R;I;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+187;170920016401;5985;20/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+189;170914040901;5965;14/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;S;S;;;;R;S;I;S;S;;S;I;;;;;;;S;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+190;170919018001;5976;18/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+191;170919028901;4641;19/09/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+192;170919028801;4640;19/09/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+193;170919018501;2067;19/09/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;R;;R;S;S;R;PASVAL;S;;;S;S
+194;170920015901;367;19/09/2017;Enterobacter aerogenes;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+195;170920015901;5984;19/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+196;170920045301;5118;20/09/2017;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;I;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+197;170920045301;5987;20/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+199;170920044901;7492;20/09/2017;Streptococcus infantarius;;;;;;S;PASVAL;R;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;PASVAL;;R;R;R;R;;R;R;I;I;I;PASVAL;;;S;S
+200;170919045201;6750;19/09/2017;Serratia marcescens;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+201;170920041401;3165;20/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+202;170920041601;3166;20/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+203;170920044101;7157;20/09/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+207;170918018201;4098;18/09/2017;Hafnia alvei;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+208;170918032901;3156;18/09/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+209;170912021601;3124;12/09/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+211;170913004401;3131;12/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+212;170912009101;7761;11/09/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;I;S;;S;S;S;S;S;S;;;S;S
+213;170911040401;7760;11/09/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+214;170912043101;7762;12/09/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+215;170911039501;7758;11/09/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+216;170922018101;3172;22/09/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+217;170922028201;5995;22/09/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;R;;R;I;;;;;;;S;I;;;;S;S;;S;;;;;;;;;;;;
+218;171010033801;7645;10/10/2017;Streptococcus pneumoniae;;;;;;I;R;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+219;171009034202;4677;09/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+220;171010010501;1462;09/10/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;R;R;;R;PASVAL;S;S;PASVAL;S;;;S;S
+221;171010010501;6763;09/10/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+222;171010039901;2092;10/10/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;S;S;;;;;S;;S;PASVAL;R;R;;S;S;S;R;PASVAL;S;;;S;S
+223;171010039901;6072;10/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;R;S;S;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+224;171010039901;4681;10/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+225;171011046001;2094;11/10/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;R;R;;R;S;S;R;PASVAL;S;;;S;S
+226;171011046101;2095;11/10/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;I;R;;R;S;S;R;PASVAL;S;;;S;S
+231;171008013701;3245;08/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+232;171011046301;4689;11/10/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+233;171011046001;4687;11/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+234;171011046101;685;11/10/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+235;171011046101;4688;11/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+236;171011046001;684;11/10/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+237;171011011401;683;10/10/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;I;S;S;S;;R;;;;;;;;PASVAL;R;R;;
+238;171011011401;4684;10/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+241;171011003101;6074;10/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+242;171011017201;5288;10/10/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+243;171010026101;55;10/10/2017;Acinetobacter baumannii;;;;;;;;;;R;S;S;PASVAL;PASVAL;;;;;PASVAL;PASVAL;S;S;;S;S;;;;;;;S;S;;;;S;S;;S;;;;;;;;;;;;
+244;171010026101;3258;10/10/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+245;171011003001;6073;10/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+247;171009011001;4675;09/10/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;R;R;R;S;S;R;S;I;S;S;S;S;R;R;;S;;;S;S;S;R;I;S;S;;S;;;;;;;;PASVAL;R;R;;
+248;171010011701;3254;10/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+249;171011002801;4683;10/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+250;171008010101;4673;07/10/2017;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;Inconnu;;;;;;;R;;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;;R;;;R;R;R;R;R;R;R;;R;;;;;;;;PASVAL;R;R;;
+251;171008014601;3246;08/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+253;171011004001;7419;10/10/2017;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;I;R;;R;I;S;I;S;CMI;;;S;S
+254;171011004001;7420;10/10/2017;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;S;S;;;S;S
+255;171008005801;6063;08/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+256;171008005801;3244;08/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+257;171008013701;2088;08/10/2017;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;S;;S;PASVAL;I;R;;R;S;S;R;PASVAL;S;;;S;S
+258;171009021301;7265;09/10/2017;Streptococcus anginosus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+259;171009040001;3250;09/10/2017;Escherichia coli;PHENOTYPE INCONNU;Sauvage;;;;;;;S;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+260;171009000501;6066;09/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+261;171009011701;4676;08/10/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+262;171009000501;6067;09/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+263;171010002401;4678;09/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+264;171009008002;3248;09/10/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+265;171009040001;1461;09/10/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;S;;R;PASVAL;S;I;PASVAL;S;;;S;S
+266;171009040001;5287;09/10/2017;Proteus mirabilis;PHENOTYPE INCONNU;Sauvage;;;;;;;S;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+267;171007013901;6061;07/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;R;;S;I;;;;;;;R;R;;;;R;R;;PASVAL;;;;;;;;;;;;
+268;171008013001;246;08/10/2017;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+269;171008013301;6065;08/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+270;171007004301;245;06/10/2017;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+271;171009007501;6068;08/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;S;R;;S;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+272;171006020901;6056;06/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;S;;;;R;R;I;S;S;;R;R;;;;;;;R;S;;;;R;R;;R;;;;;;;;;;;;
+273;171008009601;4183;08/10/2017;Klebsiella oxytoca;B.L.S.E.;GTNt;;;;;;;R;;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;R;S;;R;;;R;S;R;S;R;R;S;;R;;;;;;;;PASVAL;R;S;;
+274;171007012601;675;07/10/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;I;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+276;171011043701;7536;11/10/2017;Streptococcus mitis;;;;;;S;PASVAL;R;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;I;R;I;R;;S;S;S;S;S;PASVAL;;;S;S
+277;171009027701;7644;09/10/2017;Streptococcus pneumoniae;;;;;;I;R;PASVAL;I;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;R;PASVAL;;;S;S
+278;171008013201;6064;08/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+279;171007012501;6060;07/10/2017;Pseudomonas aeruginosa;;;;;;;;;;;S;S;S;S;;;;;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+280;171007005101;4672;06/10/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+282;171007011801;383;07/10/2017;Enterobacter aerogenes;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+283;171007004901;6058;07/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;R;R;R;;R;I;;;;;;;S;S;;;;S;S;;I;;;;;;;;;;;;
+284;171009002801;3247;08/10/2017;Escherichia coli;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+285;171006038401;7264;06/10/2017;Streptococcus anginosus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;S;R;PASVAL;;;S;S
+286;171008014201;7418;07/10/2017;Streptococcus dysgalactiae ssp equisimilis;;;En cours;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+287;171009000501;4674;09/10/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+288;171019023301;5297;19/10/2017;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+289;171019023301;6765;19/10/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+290;171019023301;6111;19/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+291;171019035501;692;19/10/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+292;171017043801;1483;17/10/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;R;R;;R;PASVAL;S;R;PASVAL;S;;;S;S
+295;171018023001;4715;18/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;S;S;I;S;S;S;S;S;S;;R;;;I;S;R;S;S;S;S;;R;;;;;;;;PASVAL;S;S;;
+296;171014017301;6087;14/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+297;171014017301;5291;14/10/2017;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+298;171015010401;5292;15/10/2017;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+299;171018010101;3283;17/10/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;S;;;S;S;S;I;S;S;S;;R;;;;;;;;S;S;S;;
+300;171017043501;6101;17/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+301;171017024801;4704;17/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+302;171018004101;4713;17/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+303;171018018301;4714;18/10/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+304;171015011501;4700;15/10/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;I;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+305;171018018101;5401;17/10/2017;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+306;171018039701;7421;18/10/2017;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;S;;;S;S
+307;171018044401;5296;18/10/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+308;171018031201;6105;18/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+309;171016043401;7767;16/10/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+310;171012046601;7337;12/10/2017;Streptococcus B;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;S;;;S;S
+311;171014005701;6085;13/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+312;171015010601;5293;15/10/2017;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+313;171017002201;3277;16/10/2017;Escherichia coli;PHENOTYPE TRI;GTNt;;;;;;;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;S;;;;;;;;S;S;S;;
+314;171015010601;6091;15/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+315;171014014401;4699;14/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;R;S;;
+316;171013039801;5289;13/10/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+317;171015003401;3270;14/10/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+318;171014007402;4697;14/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+319;171014013401;4698;14/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+320;171023042501;5130;23/10/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;I;R;R;R;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+321;171023013001;385;23/10/2017;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;I;I;R;R;I;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;R;R;;
+322;171021005001;7646;20/10/2017;Streptococcus pneumoniae;;;;;;I;R;PASVAL;R;;;;;;;;;I;;;;;;;;;;R;;S;S;;;;;S;;S;S;R;S;;S;S;S;S;S;PASVAL;;;S;S
+323;171020006701;6114;19/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;R;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+324;171023030801;4726;23/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+325;171022014801;4723;22/10/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+326;171022014801;7008;22/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+327;171021012901;3299;21/10/2017;Escherichia coli;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;S;S;S;;
+328;171021009101;4721;21/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+330;171023030501;5299;23/10/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+331;171023025901;4725;23/10/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+332;171023025901;3309;23/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+333;171023024601;6;23/10/2017;Achromobacter xylosoxidans;;;;;;;;;;R;S;S;S;S;;;;R;S;R;S;PASVAL;;S;S;;;;;;;R;R;;;;PASVAL;S;;PASVAL;;;;;;;;;;;;
+334;171022012701;3302;22/10/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+335;171023005301;3303;22/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+336;171022011701;3301;22/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+337;171021016701;3300;21/10/2017;Escherichia coli;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+339;171022009701;4722;22/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;I;I;S;;R;;;;;;;;PASVAL;S;S;;
+340;171020028601;6117;20/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+341;171021009101;6119;21/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+343;171021001501;3298;20/10/2017;Escherichia coli;B.L.S.E.;TNtA;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;R;I;I;R;R;R;R;;R;;;;;;;;S;S;S;;
+344;171018022301;170;18/10/2017;Citrobacter freundii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+345;171019030301;6113;19/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+346;171019030301;5430;19/10/2017;Providencia stuartii;PHENOTYPE INCONNU;Inconnu;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;R;;;R;S;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+347;171023000601;7009;22/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+348;171023040601;699;23/10/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+349;171023021101;3307;23/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+350;171019011901;6108;18/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+351;171020038101;695;20/10/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+353;171020007301;7006;19/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+354;171021009101;7007;21/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+355;171021005301;6118;21/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+357;171021000201;250;20/10/2017;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+358;171022013401;7166;22/10/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+359;171022003701;7768;22/10/2017;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;I;S;;S;S;S;S;R;S;;;S;S
+360;171025042501;3323;25/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+361;171025042501;3324;25/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+362;171026042901;3329;26/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;GTNt;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;S;S;S;;
+363;171024005901;3314;23/10/2017;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;S;R;I;R;S;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+364;171025017301;3318;25/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+365;171024025202;5131;24/10/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;I;R;R;R;S;S;S;;EC;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+366;171024006101;7011;24/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+369;171025010001;7013;24/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+370;171025011701;5301;24/10/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;GTNt;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;I;S;R;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+371;171026004001;6132;25/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+372;171024018101;4727;24/10/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+375;171023047701;3312;23/10/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;S;R;R;I;I;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+376;171024007201;701;24/10/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+377;171024027101;703;24/10/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;S;R;R;R;R;I;S;S;S;I;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+379;171022014801;5;22/10/2017;Achromobacter xylosoxidans;;;;;;;;;;R;S;S;S;S;;;;R;R;R;R;PASVAL;;S;S;;;;;;;R;R;;;;PASVAL;R;;PASVAL;;;;;;;;;;;;
+380;171024028401;3317;24/10/2017;Escherichia coli;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;R;R;S;S;I;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+381;171024005801;5300;23/10/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;GTNt;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;I;S;R;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+383;171024024801;6128;24/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+384;171023026101;7;23/10/2017;Achromobacter xylosoxidans;;;;;;;;;;R;S;S;S;S;;;;R;S;R;S;PASVAL;;S;S;;;;;;;R;I;;;;PASVAL;S;;PASVAL;;;;;;;;;;;;
+385;171023010801;7010;23/10/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+387;171025010001;6130;24/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+388;171025029301;3321;25/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+389;171025009601;704;24/10/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+390;171024026201;7167;24/10/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+392;171024005801;700;23/10/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+393;171023042401;6124;23/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+394;171027017901;5305;26/10/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;GTNt;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+395;171027019802;3332;27/10/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+396;171031018601;3352;30/10/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+397;171027031201;3334;27/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+398;171031042301;6153;31/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;R;R;R;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+399;171027003602;5303;26/10/2017;Proteus mirabilis;B.L.S.E.;Sauvage;;;;;;;R;R;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+400;171027030601;4733;27/10/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;I;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;I;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+401;171030012901;4738;29/10/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;R;S;;
+402;171029017701;3340;29/10/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+403;171027020001;3333;27/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+404;171027044401;3335;27/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+405;171027045102;3336;27/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+406;171027001001;6134;26/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+407;171028014801;391;28/10/2017;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;S;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+408;171110010501;5140;09/11/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;R;S;I;S;S;S;S;I;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+409;171110010601;5141;09/11/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;I;R;R;R;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+410;171110010601;3395;09/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+411;171110010601;6189;09/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+412;171110008001;6186;10/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+414;171107024001;5309;07/11/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+415;171030016401;3347;30/10/2017;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;S;S;R;S;R;R;R;I;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+416;171031021401;3355;31/10/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+417;171111002602;3398;10/11/2017;Escherichia coli;PHENOTYPE TRI;GTNt;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;R;;;I;S;R;R;S;S;S;;S;;;;;;;;S;S;S;;
+418;171106032501;5307;06/11/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+419;171109023501;4759;08/11/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Inconnu;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;S;;;S;S;;S;S;S;S;;;;;;;;;;PASVAL;S;S;;
+420;171107001201;1548;06/11/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;R;;R;PASVAL;S;I;PASVAL;S;;;S;S
+422;171109009901;6184;09/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+423;171108018601;7467;08/11/2017;Streptococcus groupe mitis/oralis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;R;R;;R;S;S;S;S;PASVAL;;;S;S
+424;171109019401;7173;09/11/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;R;R;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+425;171109002501;7560;08/11/2017;Streptococcus oralis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;R;R;;R;I;S;S;S;PASVAL;;;S;S
+426;171109011502;7562;09/11/2017;Streptococcus oralis;;;;;;CMI;PASVAL;R;;;;;;;;;;CMI;;;;;;;;;;S;;S;S;;;;;PASVAL;;I;I;R;R;;R;I;S;S;S;PASVAL;;;S;S
+427;171109011402;7561;09/11/2017;Streptococcus oralis;;;;;;CMI;PASVAL;R;;;;;;;;;;CMI;;;;;;;;;;S;;S;S;;;;;PASVAL;;I;I;R;R;;R;I;S;S;S;PASVAL;;;S;S
+428;171111001902;727;10/11/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;R;;
+429;171109022501;725;08/11/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;R;R;;
+430;171109022501;4758;08/11/2017;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;I;S;S;S;S;;S;;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;;R;;
+431;171110003002;3394;10/11/2017;Escherichia coli;PHENOTYPE TRI;GTNt;;;;;;;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;S;;;;;;;;S;S;S;;
+432;171109041601;4764;09/11/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;S;R;R;R;S;R;S;R;R;R;R;I;S;S;S;;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;;S;S;;
+433;171107007901;5135;06/11/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Inconnu;;;;;;;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;S;R;S;;S;;;I;R;I;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+434;171106001102;4750;05/11/2017;Klebsiella pneumoniae;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+435;171106001102;3378;05/11/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+436;171107007901;5134;06/11/2017;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;I;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+437;171023030501;386;23/10/2017;Enterobacter aerogenes;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+438;171031015201;393;31/10/2017;Enterobacter aerogenes;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+439;171030033201;3350;30/10/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;I;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+440;171108008301;3389;08/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+441;171107029501;6175;07/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;I;S;S;;R;R;;;;;;;S;I;;;;S;S;;PASVAL;;;;;;;;;;;;
+442;171107029501;6174;07/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+444;171027046001;6136;27/10/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;R;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+445;171105002702;1541;04/11/2017;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;S;;R;PASVAL;S;S;PASVAL;S;;;S;S
+447;171101012901;7425;01/11/2017;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;S;;;S;S
+448;171103032901;7019;03/11/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+451;171101013001;6771;01/11/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+452;171101013001;6155;01/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+453;171101012901;6154;01/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+454;171111000801;4192;11/11/2017;Klebsiella oxytoca;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;S;S;I;S;S;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+455;171111000801;5403;11/11/2017;Proteus vulgaris;PHENOTYPE INCONNU;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;S;;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+456;171111005801;3399;10/11/2017;Escherichia coli;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;S;S;S;;
+457;171111006001;3400;10/11/2017;Escherichia coli;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;I;R;R;R;;R;;;;;;;;S;S;S;;
+458;171110010501;6187;09/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+459;171116036401;736;16/11/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;S;R;R;R;R;I;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+461;171116005201;733;16/11/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+462;171114024501;7836;14/11/2017;Streptococcus vestibularis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;I;R;;S;S;S;S;S;PASVAL;;;S;S
+463;171116021201;6204;16/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+464;171111018401;728;11/11/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+465;171111005101;6191;11/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+467;171120038801;3447;20/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+468;171118017001;3433;18/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+469;171118017001;5145;18/11/2017;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;I;R;R;R;S;S;S;S;I;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+472;171118020901;6210;18/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+473;171120038901;5315;20/11/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+474;171120003201;4193;19/11/2017;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+475;171116005201;734;16/11/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;R;I;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+476;171121000101;3449;21/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+477;171121002501;3450;20/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+480;171120032802;3445;20/11/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+481;171120004601;6211;20/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+482;171117036901;6208;17/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;S;;R;R;;;;;;;S;I;;;;S;S;;PASVAL;;;;;;;;;;;;
+483;171117036901;6207;17/11/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;S;;;;R;S;I;S;S;;R;R;;;;;;;S;I;;;;S;S;;PASVAL;;;;;;;;;;;;
+484;171119001101;737;19/11/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;I;S;S;S;R;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+485;171120014601;3440;20/11/2017;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+486;171129034601;766;29/11/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+487;171129034401;4803;29/11/2017;Klebsiella pneumoniae;B.L.S.E.;TNtA;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;S;;;R;I;I;I;R;R;I;;R;;;;;;;;PASVAL;R;S;;
+488;171130005101;767;29/11/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;I;S;S;S;S;S;S;;R;;;R;S;R;I;I;I;S;;R;;;;;;;;PASVAL;R;S;;
+489;171129000501;765;29/11/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+490;171129039401;6776;29/11/2017;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+491;171129014101;3476;29/11/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+493;171130007401;3481;29/11/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+494;171207042302;3513;07/12/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+495;171207020901;307;07/12/2017;Citrobacter werkmanii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+496;171207020901;181;07/12/2017;Citrobacter freundii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;I;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+497;171205042601;4821;05/12/2017;Klebsiella pneumoniae;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;S;;
+498;171206030301;6270;06/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+500;171206001901;3500;05/12/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+501;171205019701;5328;05/12/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+502;171205030101;180;05/12/2017;Citrobacter freundii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+503;171204042001;103;04/12/2017;Acinetobacter junii;;;;;;;;;;;S;S;PASVAL;PASVAL;;;;;PASVAL;PASVAL;S;S;;S;S;;;;;;;S;S;;;;S;S;;S;;;;;;;;;;;;
+504;171204041901;771;04/12/2017;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;S;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;;S;S;;
+505;171204041901;4815;04/12/2017;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;I;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;R;S;;
+506;171205000501;6266;04/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+507;171205002101;4817;04/12/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+508;171129036601;7582;29/11/2017;Streptococcus parasanguinis;;;;;;I;PASVAL;R;I;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;R;R;;S;S;S;S;S;PASVAL;;;S;S
+509;171206037101;4824;06/12/2017;Klebsiella pneumoniae;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;S;;;;;;S;R;I;;R;S;;R;;;;;;;;PASVAL;S;S;;
+510;171206047101;6271;06/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+511;171204036501;6878;04/12/2017;Staphylococcus aureus;;;METHI-R;;;;;;;;;;;;;R;;;;;;;;;;;;;S;;;;;;;R;;;;;R;R;;;;;;;S;;;
+512;171204010901;4809;04/12/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+513;171204036001;7676;04/12/2017;Streptococcus pneumoniae;;;;;;I;R;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+516;171204041301;266;04/12/2017;Citrobacter koseri;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;;;
+517;171204031901;4811;04/12/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;R;S;;
+518;171203006501;4808;03/12/2017;Klebsiella pneumoniae;PHENOTYPE INCONNU;Inconnu;;;;;;;;;R;S;R;I;;;;;R;R;R;S;;R;R;;;;;;;S;S;;;;S;S;;S;;;;;;;;;;;;
+519;171204018501;4810;04/12/2017;Klebsiella pneumoniae;B.L.S.E.;GT;;;;;;;R;S;R;S;R;S;R;S;R;R;R;I;I;S;S;S;S;S;S;;R;;;R;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;S;;
+522;171203006501;4807;03/12/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+523;171202006201;4806;02/12/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+524;171202006201;5327;02/12/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+525;171130043701;4804;30/11/2017;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;R;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;R;R;;
+526;171202019901;6257;02/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;S;S;;S;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+527;171204004702;3495;03/12/2017;Escherichia coli;PHENOTYPE TRI;GTNt;;;;;;;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;I;S;R;R;R;R;R;;S;;;;;;;;S;S;S;;
+528;171130043701;4102;30/11/2017;Hafnia alvei;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;R;R;S;R;R;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+529;171127031201;760;27/11/2017;Enterobacter cloacae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;R;R;;
+530;171203011301;3494;03/12/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+531;171212042201;3541;12/12/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;;;S;;;;;;;;S;S;S;;
+532;171210011001;6283;10/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+533;171212047801;4841;12/12/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;;;S;;;;;;;;PASVAL;R;S;;
+534;171219014501;3569;18/12/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+535;171219037701;3573;19/12/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+536;171218018201;4858;18/12/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+537;171218016901;4857;18/12/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+538;171215009201;3548;14/12/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+539;171214037601;5335;14/12/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+540;171215015701;3549;15/12/2017;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+541;171215015701;4850;15/12/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+542;171216002801;6321;15/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+543;171215015701;5153;15/12/2017;Morganella morganii;B.L.S.E.;Sauvage;;;;;;;R;R;R;S;R;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+544;171215030801;794;15/12/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;I;I;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+545;171218001101;6325;18/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+546;171219050901;3575;19/12/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+547;171218022401;405;18/12/2017;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;I;S;S;I;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+548;171215007901;4849;15/12/2017;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;I;S;R;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+549;171215007901;3547;15/12/2017;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;S;S;R;;S;;;S;S;S;I;S;S;S;;R;;;;;;;;S;S;S;;
+550;171216021501;5338;16/12/2017;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+551;171218024701;11;18/12/2017;Achromobacter xylosoxidans;;;;;;;;;;R;R;R;S;S;;;;R;R;R;R;PASVAL;;S;R;;;;;;;R;R;;;;PASVAL;R;;PASVAL;;;;;;;;;;;;
+554;171221026101;3582;20/12/2017;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+555;171220035201;5342;20/12/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+556;171221006301;6350;20/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+557;171216018302;4851;16/12/2017;Klebsiella pneumoniae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;S;R;S;R;S;;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+558;171216000101;3559;15/12/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+559;171226027401;803;26/12/2017;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;;R;;R;;;;;;;;PASVAL;S;S;;
+560;171223006401;408;23/12/2017;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;I;S;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+561;171227013001;70;27/12/2017;Acinetobacter baumannii;;;;;;;;;R;R;R;R;R;PASVAL;R;R;R;PASVAL;PASVAL;PASVAL;R;I;R;R;R;R;PASVAL;;S;;;S;S;S;R;PASVAL;R;R;;R;;;;;;;;PASVAL;R;R;;
+562;171227000201;4106;26/12/2017;Hafnia alvei;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;I;I;I;I;R;S;R;I;I;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+563;171227000301;5408;26/12/2017;Proteus vulgaris;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;S;R;S;I;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+564;171223006401;6358;23/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+565;171224016501;5154;24/12/2017;Morganella morganii;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;R;R;S;R;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;R;I;I;R;;S;;;;;;;;PASVAL;R;R;;
+566;171224016501;5346;24/12/2017;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;I;I;R;;S;;;;;;;;PASVAL;S;R;;
+567;171223006401;5406;23/12/2017;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;I;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+568;171223020801;4868;21/12/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+569;171223020801;802;21/12/2017;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;R;I;R;;S;;;;;;;;PASVAL;S;S;;
+570;171226029101;7190;26/12/2017;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;R;R;;;;;R;;R;R;S;R;;R;S;S;S;S;S;;;S;S
+571;171226031901;5155;26/12/2017;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+572;171228021501;6370;26/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+575;180103036001;4212;03/01/2018;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+576;180101006301;6391;01/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+577;180103000602;6780;02/01/2018;Serratia marcescens;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;S;R;I;S;R;R;R;I;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+578;180103030701;3616;03/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+579;180103030701;3617;03/01/2018;Escherichia coli;PHENOTYPE INCONNU;Sauvage;;;;;;;S;S;S;S;S;S;S;I;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+580;171231018101;7063;31/12/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+581;180102035701;7064;02/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+582;180103030701;5410;03/01/2018;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+583;180103030401;814;03/01/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+584;180104004901;275;03/01/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+585;180103030301;1732;03/01/2018;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;;I;S;;R;PASVAL;S;R;;S;;;S;S
+586;171231005201;5349;30/12/2017;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+587;171231013501;3604;31/12/2017;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+588;180101015801;6392;01/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+589;171231017901;7062;31/12/2017;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+590;171231017901;6390;31/12/2017;Pseudomonas aeruginosa;;;;;;;;;;R;S;R;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+591;180101001201;3605;01/01/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+592;180101006201;812;01/01/2018;Enterobacter cloacae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;R;R;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+593;171231013501;4890;31/12/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+594;171231007101;4887;31/12/2017;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+596;180102035501;7564;02/01/2018;Streptococcus oralis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+597;180102035501;7193;02/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+599;180114008501;833;14/01/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+600;180114000501;6445;13/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+601;180115002001;6454;14/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+602;180108022001;3641;08/01/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+603;180108022001;825;08/01/2018;Enterobacter cloacae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+604;180108049901;4922;08/01/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;I;;R;;;;;;;;PASVAL;S;S;;
+605;180107006001;7067;07/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+606;180105031601;3634;05/01/2018;Escherichia coli;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;R;S;S;S;;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+607;180108027001;3642;08/01/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+608;180109004301;3655;08/01/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+609;180108027901;280;08/01/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;;S;S;;
+610;180108027901;5158;08/01/2018;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+611;180106024901;4914;06/01/2018;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;S;R;R;R;I;S;R;S;S;I;S;S;S;S;S;S;S;R;;S;;;S;S;S;I;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+612;180110025401;826;10/01/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+613;180110025401;828;10/01/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;S;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+614;180110025401;827;10/01/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+615;180110034601;7070;10/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+616;180110039801;6432;10/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+617;180105030501;818;05/01/2018;Enterobacter cloacae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;R;;S;;;;;;;;PASVAL;S;S;;
+618;180115004401;6455;14/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+619;180112017902;4935;12/01/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+620;180109006701;4216;09/01/2018;Klebsiella oxytoca;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;I;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+621;180110018001;4928;09/01/2018;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;I;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+623;180105036701;820;05/01/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+624;180105036701;3636;05/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+625;180106005901;3637;05/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+626;180108028301;5353;08/01/2018;Proteus mirabilis;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;S;S;S;S;S;S;S;I;S;R;S;;S;;;S;S;S;S;S;S;;;I;;;;;;;;PASVAL;S;R;;
+627;180106022401;3640;06/01/2018;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;S;R;S;R;R;R;S;R;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+628;180105026501;6641;05/01/2018;Pseudomonas fluorescens;;;;;;;;;;R;R;R;R;S;;;;;S;R;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+629;180105032301;819;05/01/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;S;R;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;S;;
+630;180106027201;4213;06/01/2018;Klebsiella oxytoca;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+631;180109035501;7697;09/01/2018;Streptococcus pneumoniae;;;;;;S;S;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+632;180113010701;7786;12/01/2018;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+633;180111021701;7199;11/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;S;;;S;S
+634;180111019301;7198;11/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+635;180109025801;7196;08/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+636;180104022701;7354;04/01/2018;Streptococcus B;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;R;;I;I;S;R;;R;S;S;S;R;S;;;S;S
+638;180119002001;284;18/01/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+639;180118044601;283;18/01/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+640;180118040801;6482;17/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;R;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+641;180115040101;6783;15/01/2018;Serratia marcescens;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;R;R;S;I;S;R;R;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+642;180115040101;5357;15/01/2018;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+643;180118030101;5358;18/01/2018;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;R;I;I;I;;R;;;;;;;;PASVAL;S;R;;
+644;180118029201;4946;18/01/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;I;;R;;;;;;;;PASVAL;S;S;;
+645;180115007502;5425;14/01/2018;Providencia rettgeri;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;R;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+646;180116052201;5160;16/01/2018;Morganella morganii;B.L.S.E.;Sauvage;;;;;;;R;R;S;S;S;S;R;I;R;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+647;180116052201;6469;16/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+648;180117008201;6472;16/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+649;180117016001;411;16/01/2018;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;I;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+650;180116041201;6784;16/01/2018;Serratia marcescens;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+651;180116050501;7075;16/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+652;180115011901;6457;15/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+653;180115011901;6456;15/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+654;180114010201;3672;14/01/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+655;180116041201;5412;16/01/2018;Proteus vulgaris;CEPHALOSPORINASE;Sauvage;;;;;;;R;S;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+656;180115039301;836;15/01/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+657;180116012601;7201;15/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+658;180116042001;7461;16/01/2018;Streptococcus gallolyticus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;PASVAL;;R;R;I;R;;R;S;S;S;R;PASVAL;;;S;S
+661;180117028701;7204;17/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;S;;;S;S
+662;180123004201;3710;23/01/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+663;180123009601;1790;23/01/2018;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;R;;S;S;;;;;S;;S;PASVAL;I;I;;R;PASVAL;S;R;PASVAL;S;;;S;S
+664;180126007501;2217;26/01/2018;Enterococcus faecium;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;R;R;;R;S;S;R;PASVAL;S;;;S;S
+665;180126041601;856;26/01/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+666;180126041601;7083;26/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;R;;;;;;;;;;;;
+667;180126041501;7082;26/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+668;180123009601;6496;23/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+669;180127022701;5363;27/01/2018;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+670;180123009401;5361;23/01/2018;Proteus mirabilis;SAUVAGE;GT;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;R;S;;R;;;R;S;S;S;S;S;;;S;;;;;;;;PASVAL;R;R;;
+671;180127022901;7084;27/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+672;180127022901;3739;27/01/2018;Escherichia coli;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;R;R;R;S;S;S;R;I;S;R;R;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+673;180127014501;6512;27/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+674;180123006301;850;22/01/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;;;S;;;;;;;;PASVAL;S;S;;
+675;180122039201;7077;22/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+676;180122031201;6492;22/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+677;180122038101;4959;22/01/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+678;180124047101;7080;24/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+679;180126003102;3728;25/01/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+680;180123001301;7708;22/01/2018;Streptococcus pneumoniae;;;;;;I;R;PASVAL;I;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;R;S;;S;S;S;S;S;PASVAL;;;S;S
+681;180124045901;5362;24/01/2018;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+682;180124004001;6499;23/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+683;180124013902;4966;24/01/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;R;R;I;;R;;;;;;;;PASVAL;R;S;;
+684;180124037301;3723;24/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+685;180122005701;5360;22/01/2018;Proteus mirabilis;PENICILLINASE BAS NIVEAU;GTNt;;;;;;;R;S;R;S;I;S;S;;S;S;S;S;S;S;S;S;S;R;S;;R;;;R;S;R;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+686;180122032301;6785;22/01/2018;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+687;180122037101;6494;22/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+688;180122038101;6495;22/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;I;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+689;180122010001;5162;22/01/2018;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;R;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;R;R;;
+690;180122005801;7076;22/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+691;180122008402;1788;22/01/2018;Enterococcus faecalis;;;;Sensible;;PASVAL;PASVAL;S;S;;;;;;;;;R;;;;;;;;;;S;;S;S;;;;;S;;S;PASVAL;I;I;;R;PASVAL;S;I;PASVAL;S;;;S;S
+692;180124037301;7544;24/01/2018;Streptococcus mitis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;R;S;;S;S;S;S;S;PASVAL;;;S;S
+693;180124029101;6505;24/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;;S;;PASVAL;;;;;;;;;;;;
+694;180120006501;7791;19/01/2018;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+695;180120007801;3700;19/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+696;180120019601;6488;20/01/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+697;180122003301;3703;21/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+698;180121004901;4953;20/01/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+699;180122029102;7431;22/01/2018;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;CMI;;;S;S
+701;180117016201;7703;16/01/2018;Streptococcus pneumoniae;;;;;;S;S;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+702;180118026201;3688;18/01/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+703;180118026201;4945;18/01/2018;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;S;R;R;I;R;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+704;180119037301;4219;19/01/2018;Klebsiella oxytoca;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+705;180119019001;4948;19/01/2018;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;R;R;R;R;I;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;R;S;;
+706;180123000601;7707;23/01/2018;Streptococcus pneumoniae;;;;;;I;R;PASVAL;I;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;PASVAL;;;S;S
+708;180119010301;842;19/01/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;S;R;I;I;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+710;180122008101;7206;21/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+711;180118046901;412;18/01/2018;Enterobacter aerogenes;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+712;180119031901;5161;19/01/2018;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+713;180120005401;3699;19/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;R;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+714;180120004201;3698;18/01/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+716;180206027701;7092;06/02/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+717;180207040001;5167;07/02/2018;Morganella morganii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+718;180205013201;878;04/02/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;S;R;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;R;;
+719;180206028101;5018;06/02/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;I;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+720;180206015801;5371;05/02/2018;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+721;180206015801;3786;05/02/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+722;180206006101;3785;05/02/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+723;180205049201;5016;05/02/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;I;R;R;R;R;R;S;S;S;S;S;R;;I;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+724;180205003601;5010;04/02/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;I;R;R;R;R;R;S;S;S;S;S;R;;I;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+725;180205003601;876;04/02/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+726;180131041701;863;31/01/2018;Enterobacter cloacae;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;R;R;S;I;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+727;180205002601;3776;04/02/2018;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+728;180203007502;5003;03/02/2018;Klebsiella pneumoniae;B.L.S.E.;TNtA;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;R;R;;S;;;R;S;I;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+729;180131032901;4990;31/01/2018;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;S;R;S;R;I;S;I;S;S;I;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+730;180131041102;3754;31/01/2018;Escherichia coli;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;S;;;;;;;;S;S;S;;
+731;180203018801;3769;03/02/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+732;180129002702;2264;28/01/2018;Enterococcus identification en cours;;;;Sensible;;R;R;R;R;;;;;;;;;R;;;;;;;;;;R;;R;R;;;;;R;;R;PASVAL;R;R;;R;PASVAL;S;R;PASVAL;S;;;S;S
+733;180130039501;7207;30/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;R;S;;;S;S
+735;180204002302;874;03/02/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;I;S;S;S;R;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;R;;
+736;180202015701;7718;02/02/2018;Streptococcus pneumoniae;;;;;;S;S;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+738;180201035201;7209;01/02/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;S;;;S;S
+739;180201021701;7208;31/01/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;R;R;;;;;S;;S;S;I;R;;R;S;S;S;R;S;;;S;S
+740;180201033101;4999;01/02/2018;Klebsiella pneumoniae;B.L.S.E.;TNtA;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;R;I;I;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+742;180203007901;6528;02/02/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+743;180131039501;3753;31/01/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;S;R;I;I;R;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+744;180131034201;4991;31/01/2018;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;S;R;S;R;I;S;I;S;S;I;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+745;180130020701;6789;30/01/2018;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+746;180131035001;131;31/01/2018;Citrobacter amalonaticus;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+747;180131039501;5416;31/01/2018;Proteus vulgaris;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;I;R;S;I;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+749;180127022701;7713;27/01/2018;Streptococcus pneumoniae;;;;;;I;R;PASVAL;I;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;R;R;;R;S;S;S;S;PASVAL;;;S;S
+751;180128004801;7086;28/01/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+752;180128020401;6788;28/01/2018;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+753;180129033401;4984;29/01/2018;Klebsiella pneumoniae;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+754;180129040201;3748;29/01/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+755;180209036401;3803;09/02/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+756;180209008801;881;09/02/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+757;180209035001;5027;09/02/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+758;180209035001;3802;09/02/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+759;180209034001;3800;09/02/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+760;180209020301;6544;09/02/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+761;180209009202;3796;09/02/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+762;180209036401;3804;09/02/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+763;180210007001;3805;09/02/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+764;180211017701;6556;11/02/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+765;180210015801;3807;10/02/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+766;180209026001;5373;09/02/2018;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+767;180209026001;4223;09/02/2018;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+768;180209024701;7210;09/02/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;R;S;;;S;S
+769;180225000101;5070;24/02/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+770;180223037201;3865;23/02/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;I;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+771;180225000101;7103;24/02/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+772;180224012401;910;24/02/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+773;180224012301;909;24/02/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+774;180808028401;123;8/8/2018;Enterobacter cloacae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+775;180811017201;129;8/11/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+776;180806030201;417;8/6/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;I;;R;;;;;;;;S;S;S;;
+777;180807028201;21;8/7/2018;Citrobacter freundii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;S;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+778;180807032201;120;8/7/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;S;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+779;180807033301;424;8/7/2018;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;S;R;S;R;R;R;I;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+780;180809042301;438;8/9/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+781;180812006801;957;8/12/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+783;180808000201;706;8/7/2018;Klebsiella pneumoniae;B.L.S.E.;TNtA;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;S;;;R;I;I;R;R;R;R;;S;;;;;;;;PASVAL;S;S;;
+784;180807013501;641;8/7/2018;Hafnia alvei;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;S;S;S;I;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+785;180807013501;702;8/7/2018;Klebsiella pneumoniae;B.L.S.E.;TNtA;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;S;;;R;I;I;R;R;R;R;;S;;;;;;;;PASVAL;S;S;;
+786;180806023501;412;8/6/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+787;180809005501;948;8/9/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+788;180808004201;707;8/7/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+789;180806033201;1203;8/6/2018;Streptococcus agalactiae;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+790;180805009301;868;8/5/2018;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;I;R;R;R;R;R;I;S;S;S;S;S;R;R;;S;;;S;S;S;R;I;R;I;;R;;;;;;;;PASVAL;R;R;;
+791;180808032201;711;8/8/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+792;180808021401;122;8/8/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+793;180808019101;428;8/8/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;S;R;S;R;S;R;S;R;R;R;I;I;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+794;180808007201;425;8/8/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+795;180809001702;432;8/8/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+796;180805012001;113;8/5/2018;Enterobacter cloacae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+797;180805012001;933;8/5/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+798;180812011701;448;8/12/2018;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;S;R;R;R;I;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;I;;;;;;;;S;S;S;;
+799;180813020301;1149;8/13/2018;Serratia marcescens;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;S;S;;S;;;R;R;R;R;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+800;180813020301;719;8/13/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+801;180813018801;966;8/13/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+802;180812013101;961;8/12/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;I;I;;;;;;;S;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+803;180813030501;454;8/13/2018;Escherichia coli;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;I;S;R;R;R;I;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;I;;;;;;;;S;S;S;;
+804;180813031001;455;8/13/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+805;180808012301;944;8/8/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;R;R;R;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+806;180806012501;695;8/6/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+807;180806008501;693;8/6/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+808;180806030201;416;8/6/2018;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;S;I;S;;R;;;;;;;;S;S;S;;
+809;180806023801;697;8/6/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+810;180810004901;653;8/9/2018;Klebsiella oxytoca;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+811;180806010401;694;8/5/2018;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;R;R;I;S;S;R;S;R;S;S;S;S;R;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+813;180809035301;1204;8/9/2018;Streptococcus agalactiae;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+816;180813011201;963;8/13/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+817;180813011201;131;8/13/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+818;180809039001;437;8/9/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;R;S;;
+819;180807032801;423;8/7/2018;Escherichia coli;B.L.S.E.;GTNt;;;;;;;R;R;R;S;R;S;R;S;R;R;R;I;R;S;S;S;S;S;R;;R;;;R;S;R;R;S;R;S;;R;;;;;;;;S;S;S;;
+820;180807007401;0;8/6/2018;Achromobacter xylosoxidans;;;;;;;;;;R;S;S;S;S;;;;R;S;R;R;PASVAL;;PASVAL;S;;;;;;;S;I;;;;R;S;;PASVAL;;;;;;;;;;;;
+821;180808033201;947;8/8/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+822;180807001002;418;8/6/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;I;S;;R;;;;;;;;S;S;S;;
+823;180809034901;64;8/8/2018;Enterobacter aerogenes;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+824;180807006001;20;8/7/2018;Citrobacter freundii;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;S;R;R;R;R;R;R;I;S;S;S;S;S;S;;R;;;R;I;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+825;180805010401;112;8/5/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;I;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+826;180807010602;701;8/7/2018;Klebsiella pneumoniae;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+827;180807010602;1148;8/7/2018;Serratia marcescens;CEPHALOSPORINASE;Inconnu;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;R;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+828;180808013901;121;8/8/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+829;180811018501;1265;8/11/2018;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+830;180812009801;1295;8/12/2018;Streptococcus pneumoniae;;;;;;I;R;PASVAL;S;;;;;;;;;S;;;;;;;;;;PASVAL;;S;S;;;;;S;;S;S;S;R;;R;S;S;S;R;PASVAL;;;S;S
+832;180806013801;1235;8/3/2018;Streptococcus anginosus;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;R;;R;S;S;S;R;PASVAL;;;S;S
+844;180903035401;42;9/3/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+845;180903028101;1027;9/3/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+847;180903007401;767;9/3/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+848;180904036401;1031;9/4/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+849;180904018901;77;9/4/2018;Enterobacter aerogenes;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+850;180824008101;661;8/23/2018;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+852;180826011101;158;8/26/2018;Enterobacter cloacae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+854;180818010501;23;8/18/2018;Citrobacter freundii;CEPHALOSPORINASE DEREPRIMEE;G;;;;;;;R;R;R;R;R;R;R;R;R;R;R;I;S;S;R;S;S;R;R;;R;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+855;180820022401;149;8/20/2018;Enterobacter cloacae;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+856;180824024501;997;8/23/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+857;180824008801;503;8/23/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+858;180818016201;643;8/18/2018;Hafnia alvei;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;R;R;R;R;S;R;R;R;S;S;S;S;S;S;S;R;;S;;;S;S;S;R;S;I;S;;S;;;;;;;;PASVAL;S;S;;
+859;180818000401;886;8/17/2018;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+860;180904018801;170;9/4/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;S;;
+861;180904018801;169;9/4/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+862;180826009101;53;8/26/2018;Citrobacter sp;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;I;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+863;180824031901;998;8/24/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;S;S;S;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+865;180823024801;746;8/23/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;I;S;R;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+866;180823024801;498;8/23/2018;Escherichia coli;SAUVAGE;Sauvage;METHI-R;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+867;180831026401;534;8/31/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+868;180901005201;762;9/1/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+869;180901005201;167;9/1/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+870;180825013901;510;8/25/2018;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+871;180824003601;152;8/23/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+873;180820016001;145;8/20/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+874;180820020501;147;8/20/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+875;180820015601;738;8/20/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+876;180821015101;988;8/21/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+877;180821018701;485;8/21/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+878;180903035701;43;9/3/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+879;180904019001;78;9/4/2018;Enterobacter aerogenes;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+880;180904002701;876;9/4/2018;Morganella morganii;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;S;R;S;R;I;R;R;R;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+881;180904002701;546;9/4/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+882;180903005101;541;9/3/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+883;180903005402;542;9/3/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+884;180903010601;664;9/3/2018;Klebsiella oxytoca;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+885;180903010601;1024;9/3/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+886;180831026201;533;8/31/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;R;;;;;;;;S;S;S;;
+887;180905036301;172;9/5/2018;Enterobacter cloacae;B.L.S.E.;Sauvage;;;;;;;R;R;S;S;S;S;R;R;R;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+888;180905036301;555;9/5/2018;Escherichia coli;PHENOTYPE INCONNU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;S;;
+889;180906041901;175;9/6/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+890;180906020301;1038;9/6/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+891;180905021201;171;9/5/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+892;180910016201;669;9/9/2018;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+893;180909005001;788;9/9/2018;Klebsiella pneumoniae;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;R;S;S;I;R;R;S;;R;;;;;;;;PASVAL;S;R;;
+894;180909005001;571;9/9/2018;Escherichia coli;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;S;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;S;S;S;;
+895;180908001101;1045;9/7/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;R;S;;S;I;;;;;;;R;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+896;180826010901;662;8/26/2018;Klebsiella oxytoca;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+897;180827001601;513;8/26/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+898;180825005901;154;8/25/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;S;;
+899;180903028102;769;9/3/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+900;180910016001;668;9/9/2018;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+901;180908016301;897;9/8/2018;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;R;;
+902;180909010501;573;9/9/2018;Escherichia coli;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+903;180908012201;179;9/8/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+904;180908006301;566;9/8/2018;Escherichia coli;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;I;S;S;R;R;R;R;;S;;;;;;;;S;R;S;;
+905;180907022901;782;9/7/2018;Klebsiella pneumoniae;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;PASVAL;R;R;;
+906;180823011401;993;8/22/2018;Pseudomonas aeruginosa;;;;;;;;;;R;;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+907;180823000101;992;8/22/2018;Pseudomonas aeruginosa;;;;;;;;;;R;;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;R;;;;;
+909;180816020201;977;8/16/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+910;180818004701;5;8/18/2018;Acinetobacter baumannii;;;;;;;;;;R;S;S;PASVAL;PASVAL;;;;;PASVAL;PASVAL;S;S;;S;S;;;;;;;S;S;;;;S;S;;S;;;;;;;;;;;;
+911;180817016501;1185;8/17/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+912;180819005501;737;8/19/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;R;S;;
+913;180819008501;980;8/19/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+914;180818016401;477;8/18/2018;Escherichia coli;PHENOTYPE TRI;GTNt;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;S;I;S;;R;;;;;;;;S;S;S;;
+915;180818016301;476;8/18/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;GTNt;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;S;I;S;;R;;;;;;;;S;S;S;;
+916;180824016601;505;8/24/2018;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+917;180825000402;507;8/24/2018;Escherichia coli;PHENOTYPE TRI;GTNt;;;;;;;R;R;R;R;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;R;;;R;S;R;R;S;S;S;;S;;;;;;;;S;S;S;;
+918;180827024301;1007;8/27/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;I;S;S;;S;S;;;;;;;R;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+919;180822021901;991;8/22/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+920;180820026601;987;8/20/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;I;;;;S;S;;PASVAL;;;;;;;;;;;;
+922;180820026601;740;8/20/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;R;S;;
+924;180820001901;981;8/19/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+925;180820022401;986;8/20/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+926;180820028301;1139;8/20/2018;Salmonella enterica;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;EC;S;;S;;;;;;;;PASVAL;S;S;;
+927;180820030701;151;8/20/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+928;180820030701;150;8/20/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+929;180827012101;160;8/27/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;I;S;S;S;R;;R;;;R;S;R;R;R;R;S;;R;;;;;;;;PASVAL;S;S;;
+932;180827000101;159;8/26/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;I;I;R;S;;R;;;;;;;;PASVAL;S;S;;
+933;180820025801;887;8/20/2018;Proteus mirabilis;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;I;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+934;180820007101;982;8/20/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;R;R;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+937;180820002301;658;8/20/2018;Klebsiella oxytoca;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+938;180825011601;1001;8/25/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+939;180825011601;509;8/25/2018;Escherichia coli;PHENOTYPE INCONNU;GTNt;;;;;;;R;R;R;R;R;I;S;I;S;S;S;S;S;S;S;S;S;R;R;;R;;;I;S;R;R;R;R;R;;R;;;;;;;;S;S;S;;
+940;180818007301;1256;8/18/2018;Streptococcus constellatus;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;S;R;PASVAL;;;S;S
+941;180821028401;1257;8/21/2018;Streptococcus constellatus;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+942;180825006101;1212;8/24/2018;Streptococcus agalactiae;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+945;180828004201;1213;8/28/2018;Streptococcus agalactiae;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+946;180822007701;1209;8/21/2018;Streptococcus agalactiae;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;R;S;;;S;S
+947;180820025901;1312;8/20/2018;Streptococcus pyogenes;;;;;;S;PASVAL;PASVAL;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+949;180917007201;1084;9/17/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+950;180910027501;1137;9/10/2018;Pseudomonas putida Group;;;;;;;;;;R;R;R;S;S;;;;;S;I;S;S;;S;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+951;180910028001;1138;9/10/2018;Pseudomonas sp;;;;;;;;;;R;R;R;S;S;;;;;S;I;S;S;;S;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+952;180923000501;1111;9/23/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+953;180917024501;1087;9/17/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+954;180917035101;1089;9/17/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;I;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+955;180917003001;194;9/16/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+956;180906030601;1153;9/6/2018;Serratia marcescens;CEPHALOSPORINASE;Inconnu;;;;;;;R;R;S;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+957;180908004601;565;9/8/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+958;180905020501;1034;9/5/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;S;S;S;;R;I;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+959;180905035501;44;9/5/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+960;180904041001;549;9/4/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+961;180917025401;84;9/17/2018;Enterobacter aerogenes;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+962;180907003802;560;9/6/2018;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;;;
+963;180918038501;11;9/18/2018;Acinetobacter baumannii;;;;;;;;;;R;S;S;PASVAL;PASVAL;;;;;PASVAL;PASVAL;S;S;;S;S;;;;;;;S;S;;;;R;I;;S;;;;;;;;;;;;
+964;180918038501;1094;9/18/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+965;180906039301;1039;9/6/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+966;180918008101;1090;9/18/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+967;180916013501;47;9/16/2018;Citrobacter koseri;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+968;180916010501;809;9/16/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;I;R;R;R;R;R;S;S;S;S;S;R;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+969;180916010501;1078;9/16/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+970;180916013501;1080;9/16/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+971;180915002901;193;9/15/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;S;S;S;;
+972;180916013601;1081;9/16/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;R;R;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+973;180917001901;589;9/17/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+974;180905027502;554;9/5/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;S;S;S;;S;;;;;;;;S;S;S;;
+975;180905023501;553;9/5/2018;Escherichia coli;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;R;S;S;R;R;R;R;;S;;;;;;;;S;R;S;;
+976;180910028001;8;9/10/2018;Acinetobacter baumannii;;;;;;;;;;R;S;S;PASVAL;PASVAL;;;;;PASVAL;PASVAL;S;S;;S;S;;;;;;;S;S;;;;S;S;;S;;;;;;;;;;;;
+977;180906004201;896;9/5/2018;Proteus mirabilis;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+978;180905010001;773;9/4/2018;Klebsiella pneumoniae;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;R;R;;R;;;R;I;R;I;R;R;S;;R;;;;;;;;PASVAL;R;R;;
+979;180906002102;556;9/5/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;;;;;;;;;S;S;S;;
+981;180916011901;1156;9/16/2018;Serratia marcescens;B.L.S.E.;Inconnu;;;;;;;R;R;R;S;R;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+982;180916011901;30;9/16/2018;Citrobacter freundii;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+983;180916008301;1195;9/16/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+984;180916008301;1076;9/16/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;R;R;R;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+985;180912024501;1194;9/12/2018;Stenotrophomonas maltophilia;;;;;;;;;;R;R;PASVAL;R;PASVAL;;;;R;PASVAL;R;PASVAL;PASVAL;;R;R;;;;;;;I;I;;;;PASVAL;S;;S;;;;;;;;;;;;
+986;180924003001;1112;9/24/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;I;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+988;180924003001;841;9/24/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+989;180912036701;800;9/12/2018;Klebsiella pneumoniae;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+990;180912036701;185;9/12/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;I;;R;;;;;;;;PASVAL;S;R;;
+991;180906009402;557;9/6/2018;Escherichia coli;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;R;R;S;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;S;S;S;;
+992;180925032401;1120;9/25/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;R;R;;;;R;S;S;S;S;;S;S;;;;;;;R;S;;;;R;R;;PASVAL;;;;;;;;;;;;
+993;180925027101;1119;9/25/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+994;180924003001;203;9/24/2018;Enterobacter cloacae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;R;;
+995;180925040601;849;9/25/2018;Klebsiella pneumoniae;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;I;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+996;180925042101;900;9/25/2018;Proteus mirabilis;PENICILLINASE BAS NIVEAU;Sauvage;;;;;;;R;S;R;S;I;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;R;;;;;;;;PASVAL;S;R;;
+997;180917024501;592;9/17/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+998;180917007201;1082;9/17/2018;Pseudomonas aeruginosa;;;;;;;;;;R;S;S;S;S;;;;R;S;S;S;S;;S;S;;;;;;;S;S;;;;S;S;;PASVAL;;;;;;;;;;;;
+999;180916011001;1140;9/16/2018;Salmonella enterica;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+1000;180923000501;49;9/23/2018;Citrobacter koseri;PENICILLINASE HAUT NIVEAU;Sauvage;;;;;;;R;S;R;S;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+1001;180908013401;1154;9/8/2018;Serratia marcescens;CEPHALOSPORINASE + PNASE;Sauvage;;;;;;;R;R;R;S;I;R;R;R;S;S;S;S;S;S;S;S;S;R;S;;S;;;R;R;R;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+1002;180910027601;881;9/10/2018;Pantoea dispersa;PHENOTYPE INCONNU;Sauvage;;;;;;;R;R;R;S;S;S;R;I;S;S;S;S;S;S;S;S;S;R;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+1003;180910028001;180;9/10/2018;Enterobacter cloacae;CEPHALOSPORINASE;Sauvage;;;;;;;R;R;S;S;S;S;R;R;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;S;;
+1004;180911010601;795;9/11/2018;Klebsiella pneumoniae;CEPHALOSPORINASE DEREPRIMEE;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;S;R;S;I;S;S;S;S;R;R;;S;;;S;S;S;R;R;S;S;;S;;;;;;;;PASVAL;S;R;;
+1005;180917025302;83;9/17/2018;Enterobacter aerogenes;B.L.S.E.;Sauvage;;;;;;;R;R;R;R;R;R;R;R;R;R;R;R;R;S;I;S;S;S;R;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;PASVAL;S;R;;
+1006;180910012601;1052;9/10/2018;Pseudomonas aeruginosa;;;;;;;;;;R;R;R;S;R;;;;R;S;I;S;S;;R;R;;;;;;;S;S;;;;S;R;;PASVAL;;;;;;;;;;;;
+1007;180908016301;568;9/8/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+1008;180905002201;550;9/4/2018;Escherichia coli;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;S;S;S;S;;S;;;;;;;;S;S;S;;
+1009;180905023401;552;9/5/2018;Escherichia coli;B.L.S.E.;Inconnu;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;R;;S;;;R;S;S;R;R;R;R;;S;;;;;;;;S;R;S;;
+1010;180905013801;1141;9/4/2018;Salmonella sp;SAUVAGE;Sauvage;;;;;;;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;S;;;;;;;;PASVAL;S;S;;
+1011;180919030101;829;9/19/2018;Klebsiella pneumoniae;B.L.S.E.;GTNt;;;;;;;R;R;R;R;R;I;R;S;R;R;R;R;R;S;S;S;S;S;S;;R;;;R;S;R;R;R;R;R;;R;;;;;;;;PASVAL;S;S;;
+1012;180919030101;878;9/19/2018;Morganella morganii;B.L.S.E.;GTNt;;;;;;;R;R;R;S;R;S;R;S;S;R;S;S;S;S;S;S;S;R;S;;R;;;I;S;R;R;R;R;R;;R;;;;;;;;PASVAL;R;R;;
+1013;180919030101;600;9/19/2018;Escherichia coli;PHENOTYPE TRI;Sauvage;;;;;;;R;R;R;R;R;S;S;S;S;S;S;S;S;S;S;S;S;S;S;;S;;;S;S;S;R;R;R;R;;R;;;;;;;;S;S;S;;
+1014;180922005301;1272;9/21/2018;Streptococcus dysgalactiae ssp equisimilis;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;R;S;;;S;S
+1016;180925039201;1320;9/25/2018;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+1018;180916000201;1303;9/16/2018;Streptococcus pneumoniae;;;;;;S;S;S;S;;;;;;;;;S;;;;;;;;;;PASVAL;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;PASVAL;;;S;S
+1019;180917007701;1318;9/16/2018;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;S;S;;;S;S
+1020;180911008301;1221;9/10/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;R;;S;S;S;S;R;S;;;S;S
+1021;180911042301;1242;9/11/2018;Streptococcus anginosus;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;PASVAL;;S;S;S;R;;R;S;S;S;R;PASVAL;;;S;S
+1024;180920031701;1225;9/19/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+1025;180924035301;1231;9/24/2018;Streptococcus agalactiae;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;R;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+1026;180926017101;1321;9/26/2018;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S
+1028;180918030701;1319;9/18/2018;Streptococcus pyogenes;;;;;;S;PASVAL;S;S;;;;;;;;;S;;;;;;;;;;S;;S;S;;;;;S;;S;S;S;S;;S;S;S;S;R;S;;;S;S

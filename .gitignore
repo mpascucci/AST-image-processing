@@ -1,0 +1,41 @@
+# CMake ignores
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+/*.so
+cmake-build-debug
+
+# Project specifics ignores
+ASTimpTest
+libASTImp.dylib
+
+# Marco's specfics ignores
+*~
+build/
+CVVisual
+.vscode/
+build_local/
+.ipynb_checkpoints
+python_interface/db/astapp.db
+
+.idea/
+.history/
+*.iml
+
+
+# Python module specific ignores
+*.egg-info
+
+# images
+benchmark/images/*
+
+# creteil tests
+**/ASTscripts/*
