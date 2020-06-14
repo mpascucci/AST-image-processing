@@ -51,6 +51,7 @@ cd ..
 # build astimp library
 echo "================ BUILD ASTIMP ================"
 PATH_TO_ASTLIB="$(pwd)/build/astimplib"
+echo "PATH_TO_ASTLIB ${PATH_TO_ASTLIB}"
 if ! test -d build; then
 	mkdir build
 fi

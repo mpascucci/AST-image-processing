@@ -283,6 +283,110 @@ PetriDish getPetriDishWithRoi(const cv::Mat &ast_picture,
                      gcres.boundingbox, is_circle(gcres.contour, 1.1));
 }
 
+
+void calcDominantColor(const cv::Mat &img, int* hs) {
+    /* Get the dominant hue,saturation values of the input image.
+     * 
+     * Only the 70% most saturated pixel are considered
+     * 
+     * This function will work only for red-yellow hues
+     * (because of the peridicity of the hue space)
+     * 
+     * img : brg image
+     * hs : output int array of size 2 (hue, saturation)
+     */
+
+    cv::Mat hsv;
+    cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
+
+    // take only the most saturated pixels
+    // caluclate the distribution function of the saturation
+    cv::Mat hist;
+    int channels[] = {1};
+    int histSize[] = {256,};
+    float sranges[] = { 0, 256 };
+    const float* ranges[] = {sranges};
+
+    cv::calcHist(&hsv, 1, channels, cv::Mat(), hist, 1, histSize,  ranges);
+    // cumulative sum of the histogram
+    vector<float> cum_hist = vector<float>(histSize[0],0);
+    float old_value = 0;
+    for (int i = 0; i<histSize[0]; i++){
+        cum_hist[i] = old_value + hist.at<float>(i);
+        old_value += hist.at<float>(i);
+    }
+
+    // find the saturation quantile at specified threshold
+    int saturation_threshold = 0;
+    for (int i = 0; i<histSize[0]; i++){
+        if (cum_hist[i]/ cum_hist.back() > 0.5) {
+            saturation_threshold = i;
+            break;
+        }
+    }
+
+    // Select only pixels that have a saturation higher than the threshold value
+    cv::Mat sat_img;
+    cv::extractChannel(hsv,sat_img,1);
+    cv::Mat mask = cv::Mat::zeros(img.rows, img.cols, CV_8UC1);
+    mask.setTo(1, sat_img > saturation_threshold);
+
+    // Find mean hue and sat
+    cv::Mat pixels = cv::Mat::zeros(img.rows, img.cols, CV_32FC1);
+    int N = cv::sum(mask)[0]; // number of selected pixels
+    sat_img.copyTo(pixels, mask);
+    int s = (int) round(cv::sum(pixels)[0]/N);  
+
+    cv::Mat hue_img = cv::Mat::zeros(img.rows, img.cols, CV_8UC1);
+    cv::extractChannel(hsv,hue_img,0);
+    // rotate the hue space to remove the red discontinuity
+    int temp;
+    for (int r=0; r<hue_img.rows; r++) {
+        for (int c=0; c<hue_img.cols; c++) {
+            temp = hue_img.at<unsigned char>(r,c);
+            temp = (temp +90)%180;
+            hue_img.at<unsigned char>(r,c) = (unsigned char) temp;
+        }
+    }
+
+    hue_img.copyTo(pixels, mask);
+    // Compensate the hue rotation
+    int h = ((int) round(cv::sum(pixels)[0]/N + 90))%180;  
+
+    hs[0] = h;
+    hs[1] = s;
+}
+
+bool isGrowthMediumBlood(const cv::Mat &ast_crop) {
+    /* Classify the kind of growth medium in a cropped AST image.
+    *
+    * return boolean:
+    *   true if the growth madium is red (HM-F)
+    *   false otherwise
+    * 
+    * Parameters:
+    *   img: the cropped bgr Petri-dish image of an antibiogram picture.
+    */
+
+    // resize image
+    cv::Mat resized_img;
+    cv::resize(ast_crop, resized_img , cv::Size2i(50,50), 0,0);
+
+    // get dominant color
+    int hs[2];
+    calcDominantColor(resized_img, hs);
+    int h = hs[0];
+    int s = hs[1];
+
+    h = (h+90)%180-90;
+
+    // Classify.
+    // These coefficients are estimated with a logistic regression on Creteil's pictures
+    return (-30.88821325 + 0.57931628*s -0.06381625*pow(h,2) -0.00140555*pow(s,2)) > 0.5;
+
+}
+
+
 /*
  * ==================
  * FIND PELLETS
@@ -892,7 +996,7 @@ InhibDiamPreprocResult inhib_diam_preprocessing(PetriDish petri,
     if (astimp::getConfig()->PetriDish.growthMedium == MEDIUM_BLOOD) {
         // copy green channel into red channel
         int fromto[] = {0, 0, 1, 1, 1, 2};
-        img = cv::Mat(petri.img);
+        img = petri.img.clone();
         cv::mixChannels(&petri.img, 1, &img, 1, fromto, 3);
     } else {
         // copy blue channel into red channel
