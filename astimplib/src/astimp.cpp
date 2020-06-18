@@ -284,7 +284,7 @@ PetriDish getPetriDishWithRoi(const cv::Mat &ast_picture,
 }
 
 
-void calcDominantColor(const cv::Mat &img, int* hs) {
+void calcDominantColor(const cv::Mat &img, int* hsv) {
     /* Get the dominant hue,saturation values of the input image.
      * 
      * Only the 70% most saturated pixel are considered
@@ -293,11 +293,11 @@ void calcDominantColor(const cv::Mat &img, int* hs) {
      * (because of the peridicity of the hue space)
      * 
      * img : brg image
-     * hs : output int array of size 2 (hue, saturation)
+     * hs : output int array of size 3 (hue, saturation, value)
      */
 
-    cv::Mat hsv;
-    cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
+    cv::Mat hsv_img;
+    cv::cvtColor(img, hsv_img, cv::COLOR_BGR2HSV);
 
     // take only the most saturated pixels
     // caluclate the distribution function of the saturation
@@ -307,7 +307,7 @@ void calcDominantColor(const cv::Mat &img, int* hs) {
     float sranges[] = { 0, 256 };
     const float* ranges[] = {sranges};
 
-    cv::calcHist(&hsv, 1, channels, cv::Mat(), hist, 1, histSize,  ranges);
+    cv::calcHist(&hsv_img, 1, channels, cv::Mat(), hist, 1, histSize,  ranges);
     // cumulative sum of the histogram
     vector<float> cum_hist = vector<float>(histSize[0],0);
     float old_value = 0;
@@ -327,18 +327,23 @@ void calcDominantColor(const cv::Mat &img, int* hs) {
 
     // Select only pixels that have a saturation higher than the threshold value
     cv::Mat sat_img;
-    cv::extractChannel(hsv,sat_img,1);
+    cv::extractChannel(hsv_img,sat_img,1);
     cv::Mat mask = cv::Mat::zeros(img.rows, img.cols, CV_8UC1);
     mask.setTo(1, sat_img > saturation_threshold);
 
-    // Find mean hue and sat
+    // Find mean hue, saturation and value
     cv::Mat pixels = cv::Mat::zeros(img.rows, img.cols, CV_32FC1);
     int N = cv::sum(mask)[0]; // number of selected pixels
     sat_img.copyTo(pixels, mask);
     int s = (int) round(cv::sum(pixels)[0]/N);  
+    
+    cv::Mat val_img;
+    cv::extractChannel(hsv_img,val_img,2);
+    val_img.copyTo(pixels, mask);
+    int v = (int) round(cv::sum(pixels)[0]/N);   
 
     cv::Mat hue_img = cv::Mat::zeros(img.rows, img.cols, CV_8UC1);
-    cv::extractChannel(hsv,hue_img,0);
+    cv::extractChannel(hsv_img,hue_img,0);
     // rotate the hue space to remove the red discontinuity
     int temp;
     for (int r=0; r<hue_img.rows; r++) {
@@ -353,17 +358,18 @@ void calcDominantColor(const cv::Mat &img, int* hs) {
     // Compensate the hue rotation
     int h = ((int) round(cv::sum(pixels)[0]/N + 90))%180;  
 
-    hs[0] = h;
-    hs[1] = s;
+    hsv[0] = h;
+    hsv[1] = s;
+    hsv[2] = v;
 }
 
 bool isGrowthMediumBlood(const cv::Mat &ast_crop) {
-    /* Classify the kind of growth medium in a cropped AST image.
+    /* Determine if the growth medium of an AST picture is blood enriched (HM-F).
     *
     * return boolean:
-    *   true if the growth madium is red (HM-F)
+    *   true if the growth madium is red (which is the case of MH-F growth medium)
     *   false otherwise
-    * 
+    *  
     * Parameters:
     *   img: the cropped bgr Petri-dish image of an antibiogram picture.
     */
@@ -373,16 +379,34 @@ bool isGrowthMediumBlood(const cv::Mat &ast_crop) {
     cv::resize(ast_crop, resized_img , cv::Size2i(50,50), 0,0);
 
     // get dominant color
-    int hs[2];
-    calcDominantColor(resized_img, hs);
-    int h = hs[0];
-    int s = hs[1];
+    int hsv[3];
+    calcDominantColor(resized_img, hsv);
+    int h = hsv[0];
+    int s = hsv[1];
+    int v = hsv[2];
 
+    // transform the hue coordinate so that red is centered and corresponds to hue=0
+    // (useful for the logistic regression)
     h = (h+90)%180-90;
 
     // Classify.
-    // These coefficients are estimated with a logistic regression on Creteil's pictures
-    return (-30.88821325 + 0.57931628*s -0.06381625*pow(h,2) -0.00140555*pow(s,2)) > 0.5;
+    /* These coefficients are estimated with a logistic regression on Creteil's pictures.
+    *
+    * INSTRUCTIONS for updating these coefficients:
+    *
+    * Run he following operations for each image of a data-set containing both standard and
+    * blood enriched antibiogram pictures:
+    * 1. Crop the Petri dish from the image
+    * 2. Extract mean hue, saturation and value with the calcDominantColor(...) function
+    * 
+    * Once the color extraction is done on the whole data-set, operate a logstic regression
+    * in order to separate the values corresponding to MH and MH-F antibiograms.
+    * (e.g. use sci-kit learn's linear_model.LogisticRegression function).
+    * 
+    * Copy the regression's parameter to use here for inference.
+    */
+
+    return (-0.00067274 + 0.04034141*s -0.28679131*v -0.17540224*pow(h,2) +0.00467521*pow(s,2)) > 0.5;
 
 }
 
