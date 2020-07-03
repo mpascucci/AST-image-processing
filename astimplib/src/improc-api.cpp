@@ -35,7 +35,7 @@ class ImgCache {
             img = cv::imread(path, cv::IMREAD_COLOR);
         }
         if (img.empty()) {
-            throw astimp::Exception::generic("Failed to read image", __FILE__,
+            throw astimp::Exception::generic("Failed to read image " + path, __FILE__,
                                              __LINE__);
         }
         return img;
