@@ -94,7 +94,7 @@ Re-run `source ./install_astimp_python_module.sh` whenever you want to bring new
 
 ## Copyright and Licence
 
-Copyright 2019 *Fondation Medecins Sans Frontières* <https://fondation.msf.fr/>
+Copyright 2019 The ASTapp Consortium (Université d'Évry, Fondation MSF)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
