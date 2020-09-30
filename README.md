@@ -1,16 +1,12 @@
-# ASTApp Image Processing
+# AST Image Processing
 
-This software is part of the ASTapp application, a project of
-[Fondation Medecins Sans Frontières](https://fondation.msf.fr/).
+A library for processing and measuring Disk Diffusion Antibiotic Susceptibility Testing.
+Its functions can measure the inhibition diameter in a picture of an inoculated Petri Dish.
+The library can be used in C++ code or as a Python module.
 
-ASTapp is a mobile application that reads and interprets disk diffusion based
-Antibiotic Susceptibility Tests (ASTs) by taking a picture of the bacterial
-culture with a smartphone.
-
-ASTapp is a free, off-line-working smartphone application conceived to help
-the non-expert lab staff in low resource settings with the interpretation of
-ASTs in their daily lab activity. It will perform the analysis of AST pictures
-and provide advice for appropriate patient treatment.
+# Requirements
+The library is written in C++ and requires OpenCV (>4) installed in the system.
+Python (>3.6) is also requested to use the python bindings.
 
 ## Description
 
@@ -32,9 +28,7 @@ TODO: review project tree
       |- stand_labels.hpp  # headers for the generated label templates
   |- src/
       |- debug.hpp         # debug functions, not necessary build
-      |- sqlite3.h         # sqlite library, not used on mobile devices
       |- utils.cpp         # auxiliary functions used by the library
-      |- stand_labels.c    # base64 label image templates
       |- astimp.cpp        # main astimp translation unit
 |- python-module           # python API code for astimp
 |- tests/                  # test code
