@@ -34,7 +34,7 @@ if(NOT OpenCV_LIBS)
         if(NOT OpenCV_LIBS)
                 message(FATAL_ERROR "OpenCV not found")
         endif()
-        message("OPENCV library path: ${OpenCV_DIR}\n")
+        message("OPENCV cmake path: ${OpenCV_DIR}\n")
 
         set(CMAKE_BUILD_TYPE Debug)
 
