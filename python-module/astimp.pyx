@@ -199,6 +199,15 @@ def getPetriDishWithRoi(nparray, roi):
         isRound=pd.isRound
     )
 
+def calc_dominant_color(nparray):
+    cdef int hsv[3]
+    astimplib.calcDominantColor(astimplib.np2Mat(nparray),hsv)
+    return (hsv[0],hsv[1],hsv[2])
+
+
+def is_growth_medium_blood(nparray):
+    return astimplib.isGrowthMediumBlood(astimplib.np2Mat(nparray))
+
 
 # --------------------------------- CLASSES --------------------------------
 

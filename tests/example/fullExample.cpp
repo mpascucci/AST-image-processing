@@ -130,6 +130,19 @@ int main(int argc, char **argv) {
     // display(petri.img);
     cropped = petri.img;
 
+    T.start("is_growth_medium_blood");    
+    bool is_blood = astimp::isGrowthMediumBlood(cropped);
+    T.end("is_growth_medium_blood");   
+    
+    if (is_blood) {
+        astimp::getConfigWritable()->PetriDish.growthMedium = astimp::MEDIUM_BLOOD;
+        log("growth medium is blood enriched HM");
+    } else {
+        astimp::getConfigWritable()->PetriDish.growthMedium = astimp::MEDIUM_HM;
+        log("growth medium is standard HM");
+    }
+
+
     // ===========================================================================
     // FIND PELLETS
     // ===========================================================================

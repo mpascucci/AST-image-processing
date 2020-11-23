@@ -223,6 +223,8 @@ ImprocConfig *getConfigWritable();
 /* ---------------------------------- PETRI --------------------------------- */
 PetriDish getPetriDish(const cv::Mat &img);
 PetriDish getPetriDishWithRoi(const cv::Mat &ast_picture, const cv::Rect2i roi);
+void calcDominantColor(const cv::Mat &img, int* hsv);
+bool isGrowthMediumBlood(const cv::Mat &ast_crop);
 
 /* --------------------------------- PELLETS -------------------------------- */
 vector<Circle> find_atb_pellets(const cv::Mat &img);

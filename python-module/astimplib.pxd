@@ -99,6 +99,8 @@ cdef extern from "astimp.hpp" namespace "astimp":
     void throw_custom_exception(const string &s) except +
     Circle searchOnePellet(const Mat &img, int center_x, int center_y, float mm_per_px)  except +
     float calcDiameterReadingSensibility(InhibDiamPreprocResult preproc, int pellet_idx) except +
+    void calcDominantColor(const Mat &img, int* hsv) except +
+    bool isGrowthMediumBlood(const Mat &ast_crop) except +
     
 cdef extern from "pellet_label_recognition.hpp" namespace "astimp":
     cdef struct LabelAndConfidence:
