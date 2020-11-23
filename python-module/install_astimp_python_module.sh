@@ -74,17 +74,37 @@ echo "================ INSTAL MODULE ================"
 pip3 install --upgrade --force-reinstall dist/*.whl
 echo
 
-echo "================ LD LIBRARY PATH ================"
-echo ""
-echo "Please add \"$PATH_TO_ASTLIB\" to your LD_LIBRARY_PATH"
-echo ""
-echo "For example type:"
-echo "export LD_LIBRARY_PATH=$PATH_TO_ASTLIB:\$LD_LIBRARY_PATH"
+echo "================ CHECKING INSTALL ================"
 echo
-#if [[ ! $LD_LIBRARY_PATH == $PATH_TO_ASTLIB* ]]
-#then 
-#	export LD_LIBRARY_PATH=$PATH_TO_ASTLIB:$LD_LIBRARY_PATH
-#	echo "astlimp lib path added to your LD_LIBRARY_PATH"
-#else
-#	echo "check LD_LIBRARY_PATH for astimplib --> already installed."
-#fi
+
+# check installation of opencv-python bindings
+python -c "import cv2"
+if [[ $? != 0 ]]; then
+  echo
+  echo "ERROR: the python opencv2 module is not installed in this enviromnent.
+  Did you install OpenCV and its python bindings?
+
+  Maybe you did, but you are working in a virtualenv. In this case you need
+  to link the cv2.cpython-*.so system file in the lib folder of the virtualenv."
+fi
+
+echo
+# check the installation of this module
+python -c "import astimp"
+if [[ $? == 0 ]]; then
+echo "Python module successfully installed!
+
+Please add \"$PATH_TO_ASTLIB\" to your LD_LIBRARY_PATH
+
+For example type:
+  export LD_LIBRARY_PATH=$PATH_TO_ASTLIB:\$LD_LIBRARY_PATH
+
+or add it to yout shell rc script"
+else
+  echo
+  echo "ERROR. Python module not installed."
+  echo "Possible causes:
+  - check if the opencv lib and include folders are correct \"setup.py\" in this folder
+  - be sure you can import opencv"
+fi
+echo

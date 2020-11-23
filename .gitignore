@@ -27,6 +27,7 @@ build_local/
 python_interface/db/astapp.db
 *__pycache__*
 clang
+site-packages
 
 .idea/
 .history/

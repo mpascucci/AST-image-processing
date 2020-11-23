@@ -52,6 +52,9 @@ cv_lib_folder = "/usr/lib/x86_64-linux-gnu"
 # cv_include_folder = "/usr/local/include/opencv4"
 # cv_lib_folder = "/usr/local/lib"
 
+assert os.path.isdir(cv_include_folder)
+assert os.path.isdir(cv_lib_folder)
+
 astimp_include_folder = os.path.join(cwd, "../astimplib/include")
 astimp_lib_folder = os.path.join(cwd, "../build/astimplib")
 
