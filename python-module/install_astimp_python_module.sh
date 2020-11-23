@@ -16,8 +16,8 @@ usage() {
 	"
 }
 
-if [[ ! $(pwd) =~ improc/python-module ]]; then
-	echo "Please run from improc/python-module directory."
+if [[ ! $(pwd) =~ python-module ]]; then
+	echo 'Please run from the "python-module" directory.'
 	exit 1
 fi
 
@@ -75,11 +75,16 @@ pip3 install --upgrade --force-reinstall dist/*.whl
 echo
 
 echo "================ LD LIBRARY PATH ================"
-
-if [[ ! $LD_LIBRARY_PATH == $PATH_TO_ASTLIB* ]]
-then 
-	export LD_LIBRARY_PATH=$PATH_TO_ASTLIB:$LD_LIBRARY_PATH
-	echo "astlimp lib path added to your LD_LIBRARY_PATH"
-else
-	echo "check LD_LIBRARY_PATH for astimplib --> already installed."
-fi
+echo ""
+echo "Please add \"$PATH_TO_ASTLIB\" to your LD_LIBRARY_PATH"
+echo ""
+echo "For example type:"
+echo "export LD_LIBRARY_PATH=$PATH_TO_ASTLIB:\$LD_LIBRARY_PATH"
+echo
+#if [[ ! $LD_LIBRARY_PATH == $PATH_TO_ASTLIB* ]]
+#then 
+#	export LD_LIBRARY_PATH=$PATH_TO_ASTLIB:$LD_LIBRARY_PATH
+#	echo "astlimp lib path added to your LD_LIBRARY_PATH"
+#else
+#	echo "check LD_LIBRARY_PATH for astimplib --> already installed."
+#fi

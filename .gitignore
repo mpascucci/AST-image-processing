@@ -25,6 +25,8 @@ CVVisual
 build_local/
 .ipynb_checkpoints
 python_interface/db/astapp.db
+*__pycache__*
+clang
 
 .idea/
 .history/

@@ -37,69 +37,20 @@ import setuptools.command.build_py
 
 
 # ---------------------------------------------------------------------------- #
-#                         CMake command for setuptools                         #
-# ---------------------------------------------------------------------------- #
-# class CMakeBuild(setuptools.Command):
-#     user_options = []
-
-#     def initialize_options(self):
-#         pass
-
-#     def finalize_options(self):
-#         pass
-
-#     def run(self):
-#         try:
-#             out = subprocess.check_output(['cmake', '--version'])
-#         except OSError:
-#             raise RuntimeError(
-#                 "CMake must be installed to build astimp module")
-
-#         if platform.system() == "Windows":
-#             cmake_version = LooseVersion(
-#                 re.search(r'version\s*([\d.]+)', out.decode()).group(1))
-#             if cmake_version < '3.1.0':
-#                 raise RuntimeError("CMake >= 3.1.0 is required on Windows")
-
-#         self.build_extension()
-
-#     def build_extension(self):
-#         cmake_args = []
-#         build_args = []
-
-#         if platform.system() == "Windows":
-#             if sys.maxsize > 2**32:
-#                 cmake_args += ['-A', 'x64']
-#             build_args += ['--', '/m']
-#         else:
-
-#             build_args += ['--', '-j2']
-
-#         env = os.environ.copy()
-#         env['CXXFLAGS'] = '{} -DVERSION_INFO=\\"{}\\"'.format(env.get('CXXFLAGS', ''),
-#                                                               self.distribution.get_version())
-
-#         build_folder = 'build'
-#         if not os.path.exists(build_folder):
-#             os.makedirs(build_folder)
-
-#         subprocess.check_call(['cmake', '..'] + cmake_args,
-#                               cwd=build_folder, env=env)
-#         subprocess.check_call(['cmake', '--build', '.'] +
-#                               build_args, cwd=build_folder)
-
-
-## compile astimplib
-# CMakeBuild(setuptools.Distribution()).run()
-
-# ---------------------------------------------------------------------------- #
 #                                CYTHON MODULES                                #
 # ---------------------------------------------------------------------------- #
 
 
 # ------------------------------ INCLUDE FOLDERS ----------------------------- #
-cv_lib_folder = "/usr/local/lib"
-cv_include_folder = "/usr/local/include/opencv4"
+
+# Specify here the lib and include folder of OpenCV installed on your System
+# ON UBUNTU
+cv_include_folder = "/usr/include/opencv4"
+cv_lib_folder = "/usr/lib/x86_64-linux-gnu"
+
+# ON MAC
+# cv_include_folder = "/usr/local/include/opencv4"
+# cv_lib_folder = "/usr/local/lib"
 
 astimp_include_folder = os.path.join(cwd, "../astimplib/include")
 astimp_lib_folder = os.path.join(cwd, "../build/astimplib")
