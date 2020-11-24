@@ -13,20 +13,22 @@ def apply_custom_defaults(d, default_key):
     for k, v in default[default_key].items():
         if k not in d:
             d[k] = v
+    
 
-def draw_petri_dish(petri, ax):
+def draw_petri_dish(petri, ax=None):
     bb = petri.boundingBox
-    # astimp_tools.draw(bb)
-    ax.plot(*petri.center, 'or')
+    # DRAW CENTER
+    # ax.plot(*bb.center, 'or')
+
+    if ax is None:
+        ax = plt.gca()
 
     if petri.isRound:
         art = plt.Circle(petri.center, petri.radius, fill=None, ec='r', ls='--')
         ax.add_artist(art)
     else:
-        bb = petri.boundingBox
-        # art = plt.Rectangle((bb.x,bb.y),bb.width,bb.height, fill=None, ec='r', ls='--')
         draw_roi(bb, ax)
-    
+
 
 def draw_roi(roi, ax, text="", ec='r', text_color='w', text_args={}, rect_args={}):
     apply_custom_defaults(rect_args, "artist")
@@ -37,12 +39,23 @@ def draw_roi(roi, ax, text="", ec='r', text_color='w', text_args={}, rect_args={
     rect = plt.Rectangle((roi.x, roi.y), roi.width, roi.height, **rect_args)
     ax.add_artist(rect)
 
-    text = plt.text(roi.x, roi.bottom, text, **text_args)
-    ax.add_artist(text)
+    if text != "":
+        text = plt.text(roi.x, roi.bottom, text, **text_args)
+        ax.add_artist(text)
 
 
 def draw_ast(ast, ax, **kwargs):
-    draw_numbers = kwargs.get("draw_numbers", True)
+    """Draw an AST and the analysis results.
+
+    options:
+        atb_labels  draw a label for each antibiotic disk
+        values:
+            'atb' : display antibiotic label
+            'number' : displat antibiotic number
+            'all' (default) both atb and number
+            'off' : do not draw labels
+    """
+    atb_labels = kwargs.get("atb_labels", 'all')
     ax.imshow(ast.crop)
     for j in range(len(ast.circles)):
         center = ast.circles[j].center
@@ -50,9 +63,16 @@ def draw_ast(ast, ax, **kwargs):
         temp = (center[0]-pellet_r*ast.px_per_mm,
                 center[1]-pellet_r*ast.px_per_mm)
         s = f"{j}"
-        if draw_numbers:
+        if atb_labels != 'off':
             bbox = dict(boxstyle="square", ec=(0, 1, 0.5), fc=(0.2, 0.6, 0.2, 0.7))
-            text = plt.Text(*temp, s, color='w', bbox=bbox)
+            atb_label_text = ""
+            if atb_labels == 'number':
+                atb_label_text = s
+            elif atb_labels == 'atb':
+                atb_label_text = f"{ast.labels[j].text}"
+            elif atb_labels == 'all':
+                atb_label_text = f"{s}:{ast.labels[j].text}"
+            text = plt.Text(*temp, atb_label_text, color='w', bbox=bbox)
             ax.add_artist(text)
 
         center = ast.circles[j].center
