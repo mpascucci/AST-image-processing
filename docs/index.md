@@ -63,7 +63,7 @@ Instructions for Linux (tested on Ubuntu 20.10 and MacOS)
 
 **Do not run `pip install` manually!**
 
-Open a terminal, go into the source code root `AST-image-processing`.
+Open a terminal, go into the source code root `AST-image-processing`, then run the following commands:
 ```sh
 cd Python-module
 ./clean.sh
@@ -85,7 +85,7 @@ Python -c "import sys; print(sys.path[-1])"
 
 Once the installation script terminates, one last thing is necessary: Make the system linker aware of the compiled ASTimp library. As the install scripts suggest at the end, this can be done with the command
 ```sh
-export LD_LIBRARY_PATH=/home/marco/Dev/AST-image-processing/build/astimplib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=[...]/AST-image-processing/build/astimplib:$LD_LIBRARY_PATH
 ```
 
 This command must be entered in each new shell where you intend to use the astimp module, otherwise could be added to the shell configuration file (e.g. `.bashrc`).
