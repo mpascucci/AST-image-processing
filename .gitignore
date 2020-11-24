@@ -32,7 +32,7 @@ site-packages
 .idea/
 .history/
 *.iml
-
+Gemfile
 
 # Python module specific ignores
 *.egg-info

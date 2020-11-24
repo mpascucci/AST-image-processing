@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+
+title: [AST image processing Documentation]
+description: [An overview of the ASTimp library with examples.]
+
+logo: [images/400px_ASTimp_icon.png]
+show_downloads: [false]
+# google_analytics: [Your Google Analytics tracking ID]
