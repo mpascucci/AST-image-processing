@@ -1,8 +1,10 @@
 ![ASTimp banner](docs/images/Github_social.png)
 
 A library for processing and measuring Disk Diffusion Antibiotic Susceptibility Testing.
-Its functions can measure the inhibition diameter in a picture of an inoculated Petri Dish.
+Its functions can measure the inhibition diameter in a picture of a Petri Dish.
 The library can be used in C++ code or as a Python module.
+
+This library was created for [Antibiogo](https://fondation.msf.fr/projets/antibiogo) an AST reading offline mobile application developed by a consortium of The Fundation Médecins Sans Frontières, l'Université d'Évry, le [LAMME](http://www.math-evry.cnrs.fr/doku.php), the Hénri Mondor University Hospital end the Génoscope. The project won the [Google AI impact challenge 2019](https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/). Google has been supporting and helping the development of this project untill October 2020.
 
 # Installation and Quick Start
 Please visit the [Quick Start Page](https://mpascucci.github.io/AST-image-processing/)
