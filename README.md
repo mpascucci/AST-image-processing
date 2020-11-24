@@ -4,14 +4,11 @@ A library for processing and measuring Disk Diffusion Antibiotic Susceptibility 
 Its functions can measure the inhibition diameter in a picture of an inoculated Petri Dish.
 The library can be used in C++ code or as a Python module.
 
-# Requirements
-The library is written in C++ and requires OpenCV (>4) installed in the system.
-Python (>3.6) is also requested to use the python bindings.
+# Installation and Quick Start
+Please visit the [Quick Start Page](https://mpascucci.github.io/AST-image-processing/)
 
 ## Description
-
-This image processing library contains functions to measures the inhibition
-diameters in the picture of a disk diffusion AST.
+This image processing library contains functions to measures the inhibition diameters in the picture of a disk diffusion AST.
 
 The image should be acquired according to [this protocol](https://mpascucci.github.io/ASTapp-protocol/)
 
@@ -30,7 +27,9 @@ TODO: review project tree
       |- debug.hpp         # debug functions, not necessary build
       |- utils.cpp         # auxiliary functions used by the library
       |- astimp.cpp        # main astimp translation unit
-|- python-module           # python API code for astimp
+|- docs/                   # [QuickStart](https://mpascucci.github.io/AST-image-processing/) page sources
+|- python-module/          # python API code for astimp
+      | - install_astimp_python_module.sh # install script fot the python module
 |- tests/                  # test code
    |- example/             # full AST processing from picture to measurements
    |- images/              # test images
@@ -39,20 +38,16 @@ TODO: review project tree
    |- unit_tests/
       |- *.hpp             # astimp functions unit tests
       |- astimp_tests.cpp  # unit tests entry point
-|- setup.py                # setup script for the Python API
 |- README.md               # this file
 |- INSTALL_OPENCV.md       # install notes for OpenCV
 ```
 
+## Detailed compiling and troubleshooting
 
-## Build
+### Build the library
 
-Build astimp as a CMake Project. Use the same script that pipelines uses for
-continuous build:
-
-```{shell}
-improc/ $ ./run-build.sh
-```
+If you want to build OpenCV from source, check `INSTALL_OPENCV.md`.
+Run the `run-build.sh` script to build the library.
 
 ### Build targets
 `make` is equivalent to `make all` and it will build all targets.
@@ -68,8 +63,6 @@ improc/ $ ./run-build.sh
 ### Python API
 
 To install `astimp` Python module, run `source ./install_astimp_python_module.sh` from `improc/python-module`.
-
-The `astimp` library path will be added automatically to the `LD_LIBRARY_PATH` variable. `source` is required to export this variable.
 
 Do not run `pip install` manually.
 
@@ -94,7 +87,7 @@ Re-run `source ./install_astimp_python_module.sh` whenever you want to bring new
 
 ## Copyright and Licence
 
-Copyright 2019 The ASTapp Consortium (Université d'Évry, Fondation MSF)
+Copyright 2019 The ASTapp Consortium
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -109,3 +102,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 Author: Marco Pascucci <marpas.paris@gmail.com>.
+Principal contributors:
+- Guillaume Boniface-Chang (antibiotic disks label)
+- Ellen Sebastian (benchmark)
+- Jakub Adamek (C++ Tests)

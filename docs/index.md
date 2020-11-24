@@ -1,8 +1,9 @@
 # AST image processing
 
-## What is ASTimp
+## What is ASTimp?
 
-AST image processing or _ASTimp_ allows the analysis of pictures of _disk diffusion AST_ plates and allows to measure the diameters of the inhibition zones.
+AST image processing or _ASTimp_ allows the analysis of pictures of _disk diffusion AST_ plates and allows to measure the diameters of the inhibition zones. The picture should be acquired according to [this protocol](https://mpascucci.github.io/ASTapp-protocol/)
+
 
 The library is written in C++. With the included Python wrapper, the library can be used in Python projects and notebooks.
 
@@ -35,12 +36,15 @@ Building the library and the examples requires the following software installed 
 
 In Ubuntu, these dependencies correspond to the packages: `libopencv-dev`, `cmake` and `libgtest-dev`.
 
-The Python wrapping module runs on Python 3 and needs the openCV Python module installed (in Ubuntu the package name is `Python3-opencv`).
+The Python wrapping module runs on Python3 (>3.6) and needs the openCV Python module installed (in Ubuntu the package name is `Python3-opencv`).
 
 ### Building the C++ library
 Instructions for Linux/mac
 
 Download the source code, then `cd` to the root folder `AST-image-processing`.
+
+Either run the `run-build.sh` script which will build everything, or compile as explained hereafter.
+
 Make a build folder, configure with `cmake` and build with `make`
 ```sh
 mkdir build
@@ -54,8 +58,10 @@ You can use the just compiled `test/fullexample` application to test the library
 ./tests/fullExample tests/test0.jpg
 ```
 
-### Installing the Python wrapper
+### Installing the Python module
 Instructions for Linux (tested on Ubuntu 20.10 and MacOS)
+
+**Do not run `pip install` manually!**
 
 Open a terminal, go into the source code root `AST-image-processing`.
 ```sh
