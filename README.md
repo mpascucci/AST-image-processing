@@ -1,4 +1,4 @@
-# AST Image Processing
+![ASTimp banner](docs/images/Github_social.png)
 
 A library for processing and measuring Disk Diffusion Antibiotic Susceptibility Testing.
 Its functions can measure the inhibition diameter in a picture of an inoculated Petri Dish.
