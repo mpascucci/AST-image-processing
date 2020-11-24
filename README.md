@@ -14,8 +14,6 @@ The image should be acquired according to [this protocol](https://mpascucci.gith
 
 ## Project tree
 
-TODO: review project tree
-
 ```{}
 |- astimp/              # astimp sources
    |- include/
