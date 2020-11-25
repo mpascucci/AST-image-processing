@@ -2,14 +2,16 @@
 
 ## What is ASTimp?
 
-AST image processing or _ASTimp_ allows the analysis of pictures of _disk diffusion AST_ plates and allows to measure the diameters of the inhibition zones. The picture should be acquired according to [this protocol](https://mpascucci.github.io/ASTapp-protocol/)
+AST image processing or _ASTimp_ is a library for processing and measuring Disk Diffusion Antibiotic Susceptibility Testing.
+It allows the analysis of pictures of _disk diffusion AST_ plates and allows to measure the diameters of the inhibition zones.
+For better results, the picture should be acquired according to [this simple protocol](https://mpascucci.github.io/ASTapp-protocol/)
 
+The library is written in C++. With the included Python wrapper, it can be used in Python projects and [notebooks](ASTimp Quick Start with python.html).
 
-The library is written in C++. With the included Python wrapper, the library can be used in Python projects and notebooks.
-
+This library was created for [Antibiogo](https://fondation.msf.fr/projets/antibiogo) an AST reading offline mobile application developed by a consortium of The Fundation Médecins Sans Frontières, l'Université d'Évry, le [LAMME](http://www.math-evry.cnrs.fr/doku.php), the Hénri Mondor University Hospital end the Génoscope. The project won the [Google AI impact challenge 2019](https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/). Google has been supporting and helping the development of this project untill October 2020.
 
 ## An example on Python notebooks
-![AST picture and analysis reuslts](images/AST_analysis.png)
+![AST picture and analysis rseults](images/AST_analysis.png)
 
 We have prepared a _Jupyter lab notebook_ to show ASTimp in action.
 Find here the [HTML version of this notebook](ASTimp Quick Start with python.html)
