@@ -17,7 +17,7 @@ Use one of these commands depending on what you want to do:
 sudo docker run -it astimp
 ```
 
-* run the C++ example program 
+* run the C++ example program
 ```sh
 xhost +local:root
 sudo docker run -it --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" astimp \
