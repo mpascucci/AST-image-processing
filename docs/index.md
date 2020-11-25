@@ -16,7 +16,7 @@ This library was created for [Antibiogo](https://fondation.msf.fr/projets/antibi
 We have prepared a _Jupyter lab notebook_ to show ASTimp in action.
 Find here the [HTML version of this notebook](ASTimp Quick Start with python.html)
 
-The real notebook can be found in the `python module/jupyter-lab-example` folder.
+The real notebook can be found in the `python module/jupyter-lab-example` source folder.
 
 
 ## Getting the source code
