@@ -33,6 +33,8 @@ git clone https://github.com/mpascucci/AST-image-processing.git
 
 ## Install
 
+If you have Docker installed in your system you can follow the [instructions for building a docker image](https://github.com/mpascucci/AST-image-processing/docker). Otherwise, the following explains how to compile the source code.
+
 ### Requirements
 Building the library and the examples requires the following software installed on the system.
 - OpenCV (>4.0.1)
