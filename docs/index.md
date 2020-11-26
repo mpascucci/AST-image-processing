@@ -11,7 +11,8 @@ The library is written in C++. With the included Python wrapper, it can be used 
 This library was created for [Antibiogo](https://fondation.msf.fr/projets/antibiogo) an AST reading offline mobile application developed by a consortium of The Fundation Médecins Sans Frontières, l'Université d'Évry, le [LAMME](http://www.math-evry.cnrs.fr/doku.php), the Hénri Mondor University Hospital end the Génoscope. The project won the [Google AI impact challenge 2019](https://www.blog.google/outreach-initiatives/google-org/ai-impact-challenge-grantees/). Google has been supporting and helping the development of this project untill October 2020.
 An early access to the mobile application can be requested directly to the MSF Foundation with [this online form](https://form.typeform.com/to/qEGVBzbu) (for research use only).
 
-![AST picture and analysis rseults](images/figure_main.png)
+![AST picture and analysis rseults](images/figure_main.jpg)
+Figure taken from _The first AI-based mobile application for antibiotic resistance testing_ by M.Pascucci et al. (2020)
 
 ## An example on Python notebooks
 
