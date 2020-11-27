@@ -36,6 +36,9 @@ git clone https://github.com/mpascucci/AST-image-processing.git
 
 If you have Docker installed in your system you can follow the [instructions for building a docker image](https://github.com/mpascucci/AST-image-processing/tree/master/docker). Otherwise, the following explains how to compile the source code.
 
+The software has been tested on Yosemite MacOS and Ubuntu 20.10. The typical install time is 15 minutes (but may vary depending on download speed).
+
+
 ### Requirements
 Building the library and the examples requires the following software installed on the system.
 - OpenCV (>4.0.1)
@@ -65,6 +68,7 @@ You can use the just compiled `test/fullexample` application to test the library
 ```sh
 ./tests/fullExample tests/test0.jpg
 ```
+This program is expected to generate a window with the complete analysis of image `test0.jpg` and should complete this task in less than 1 second on a  computer with an intel i5 core processor.
 
 ### Installing the Python module
 Instructions for Linux (tested on Ubuntu 20.10 and MacOS)
