@@ -34,6 +34,9 @@ git clone https://github.com/mpascucci/AST-image-processing.git
 
 ## Install
 
+**READ THE DISCLAIMER** in the project's [README.md file](https://github.com/mpascucci/AST-image-processing/blob/master/README.md#disclaimer) before installing and/or using the software. Using this software means having read and accepted the disclaimer.
+
+
 If you have Docker installed in your system you can follow the [instructions for building a docker image](https://github.com/mpascucci/AST-image-processing/tree/master/docker). Otherwise, the following explains how to compile the source code.
 
 The software has been tested on Yosemite MacOS and Ubuntu 20.10. The typical install time is 15 minutes (but may vary depending on download speed).
