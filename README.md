@@ -1,5 +1,8 @@
 ![ASTimp banner](docs/images/Github_social.png)
 
+
+[![DOI](https://zenodo.org/badge/299842477.svg)](https://zenodo.org/badge/latestdoi/299842477)
+
 A library for processing and measuring Disk Diffusion Antibiotic Susceptibility Testing.
 Its functions can measure the inhibition diameter in a picture of a Petri Dish.
 The library can be used in C++ code or as a Python module.
