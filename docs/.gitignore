@@ -1,2 +1,5 @@
 Gemfile*
 _site
+serve.sh
+vendor/
+.bundle

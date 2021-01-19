@@ -194,7 +194,6 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.3.1)
     kramdown (2.3.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -230,6 +229,10 @@ GEM
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -253,12 +256,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
-  jekyll-feed
-  jekyll-gist
-  jekyll-paginate
-  jekyll-sitemap
-  json
 
 BUNDLED WITH
    2.1.4
