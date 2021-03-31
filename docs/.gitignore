@@ -1,5 +1,6 @@
-Gemfile*
+Gemfile.lock
 _site
 serve.sh
 vendor/
 .bundle
+*.swp
